@@ -1,0 +1,28 @@
+/*section padding*/
+section.padded-half {
+  padding: 2em 0 1em;
+}
+
+section.padded-half-even {
+  padding: 2em 0;
+}
+
+section.padded-full {
+  padding: 4em 0 2em;
+}
+
+section.padded-full-even {
+  padding: 4em 0;
+}
+
+section.padded-extreme {
+  padding: 6em 0;
+}
+
+section.padded-extreme-even {
+  padding: 6em 0;
+}
+
+/*test*/
+
+/*# sourceMappingURL=main.css.map */
