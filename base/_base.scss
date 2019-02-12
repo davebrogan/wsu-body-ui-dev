@@ -1,0 +1,42 @@
+/*secondary logo svg patch*/
+.secondary-logo {
+  height: 55px !important;
+  margin-top: 14px;
+}
+
+.row.expanded {
+  max-width: none !important;
+}
+
+@media only screen and (max-width: 740px) {
+  .secondary-logo {
+	margin-top: 0;
+  }
+}
+
+/*remove dropdown nav box shadow*/
+.showcase-html-section {
+  padding-top:0;
+}
+
+
+.banner {
+  width: 100%;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.offscreen {
+  position: absolute;
+  left: -10000px;
+}
+
+.stretchbox {
+  width: 100%;
+}
+
+.clearfix {
+  clear: both;
+}
