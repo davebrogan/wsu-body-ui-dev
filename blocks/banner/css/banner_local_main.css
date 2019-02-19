@@ -1,0 +1,13 @@
+/*test compile*/
+/*flex utilities*/
+.banner--overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.banner__text-wrap h1, .banner__text-wrap h2, .banner__text-wrap p, .banner__text-wrap img, .banner__text-wrap button {
+  color: #FFF;
+}
+
+/*# sourceMappingURL=banner_local_main.css.map */
