@@ -1,11 +1,6 @@
 .banner {
-  &--overlay {
-	@include flex-column(center, center);
-  }
-
-  &__text-wrap {
-	h1, h2, p, img, button {
-	  color: #FFF;
-	}
-  }
+  @include bg-interchange-retina('');
+  //height: calc(100vw / 2);
+  //max-height: ;
+  //min-height: ;
 }
