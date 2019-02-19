@@ -1,6 +1,13 @@
 .banner {
-  @include bg-interchange-retina('');
   //height: calc(100vw / 2);
   //max-height: ;
   //min-height: ;
+}
+
+.banner--empty, .banner--overlay {
+  @include bg-interchange-retina('');
+}
+
+.banner--color-overlay {
+  background-color: wsu-palette($wcpurp-colors, 1);
 }
