@@ -1,0 +1,23 @@
+@mixin bg-img($url) {
+  background-image: url($url);
+}
+
+@mixin bg-img-2x($url) {
+  @media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
+	background-image: url(img-res-double($url));
+  }
+}
+
+@mixin bg-interchange-retina($url) {
+  @include bg-img($url);
+  @include bg-img-2x($url);
+}
+
+@mixin ar-banner-figure($url){
+  @media only screen and (min-width: 1024px) {
+	background-image: url($url);
+  }
+  @media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
+	background-image: url(img-res-double($url));
+  }
+}
