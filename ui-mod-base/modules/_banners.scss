@@ -1,11 +1,8 @@
 .banner {
+  @include flex-column(center, center);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-
-  &--overlay {
-	@include flex-column(center, center);
-  }
 
   &__text-wrap {
 	h1, h2, p, img, button {

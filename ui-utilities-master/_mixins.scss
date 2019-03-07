@@ -4,7 +4,7 @@
   background-position: $pos-x $pos-y;
 }
 
-/*flex utilities-block*/
+/*flex utilities-master-block*/
 @mixin flex-row($align, $justify) {
   display: flex;
   flex-direction: row;
@@ -17,4 +17,20 @@
   flex-direction: column;
   align-items: $align;
   justify-content: $justify;
+}
+
+@mixin theme-maker-block($block-name, $modifier-name) {
+  &__#{$block-name} {
+    #{".-" + $modifier-name} {
+      background-color: $modifier-name;
+    }
+  }
+}
+
+@mixin theme-maker-element($element-name, $modifier-name) {
+  &__#{$element-name} {
+    #{".-" + $modifier-name} {
+      background-color: $modifier-name;
+    }
+  }
 }

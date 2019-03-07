@@ -1,0 +1,22 @@
+.banner--empty, .banner--overlay {
+  background-image: url("");
+}
+@media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
+  .banner--empty, .banner--overlay {
+    background-image: url("");
+  }
+}
+
+.banner--color-overlay {
+  background-color: #492365;
+}
+
+.banner .banner__text-box .-green {
+  background-color: green;
+}
+
+.banner__text-box .-green {
+  background-color: green;
+}
+
+/*# sourceMappingURL=ui-local-build.css.map */

@@ -1,14 +1,8 @@
 //main import stylesheet for 2017 Annual Report site
-@import 'utilities/variables';
-@import 'utilities/functions';
-@import 'utilities/mixins';
-@import 'utilities/placeholders';
-
-@import 'base/base';
-@import "base/buttons";
-@import 'base/typography';
+@import '../ui-utilities-master/variables';
+@import '../ui-utilities-master/functions';
+@import '../ui-utilities-master/mixins';
+@import '../ui-utilities-master/placeholders';
 
 @import 'modules/banners';
 @import 'modules/sections';
-
-@import "themes/color-themes";
