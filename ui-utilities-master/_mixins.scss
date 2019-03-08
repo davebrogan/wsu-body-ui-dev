@@ -1,10 +1,26 @@
+@mixin bg-img($url) {
+  background-image: url($url);
+}
+
+@mixin bg-img-2x($url) {
+  @media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
+    background-image: url(img-res-double($url));
+  }
+}
+
+//start with the url for the '1x' version of the image
+@mixin bg-interchange-retina($url) {
+  @include bg-img($url);
+  @include bg-img-2x($url);
+}
+
 @mixin bg-img-placement($pos-x, $pos-y) {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: $pos-x $pos-y;
 }
 
-/*flex utilities-master-block*/
+// flex utilities-master-block
 @mixin flex-row($align, $justify) {
   display: flex;
   flex-direction: row;

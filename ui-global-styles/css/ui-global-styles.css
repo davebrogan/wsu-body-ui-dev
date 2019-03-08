@@ -15,6 +15,14 @@
   }
 }
 /*remove dropdown nav box shadow*/
+.showcase-html-section h1 {
+  color: #492365;
+  font-family: "tradegothicltstd-boldext", sans-serif;
+  margin: 1em;
+  text-align: center;
+  font-size: 2rem;
+}
+
 .showcase-html-section {
   padding-top: 0;
 }
@@ -144,6 +152,93 @@
   text-transform: none;
 }
 
+/*section padding*/
+section.padded-half, .section.padded-half {
+  padding: 2em 0 1em;
+}
+
+section.padded-half-even, .section.padded-half-even {
+  padding: 2em 0;
+}
+
+section.padded-full, .section.padded-full {
+  padding: 4em 0 2em;
+}
+
+section.padded-full-even, .section.padded-full-even {
+  padding: 4em 0;
+}
+
+section.padded-extreme, .section.padded-extreme {
+  padding: 6em 0;
+}
+
+section.padded-extreme-even, .section.padded-extreme-even {
+  padding: 6em 0;
+}
+
+section.spacer, .section.spacer {
+  height: 200px;
+}
+
+section.spacer-half, .section.spacer-half {
+  height: 100px;
+}
+
+section.spacer-quarter, .section.spacer-quarter {
+  height: 50px;
+}
+
+.inset {
+  background-color: #e8e8e8;
+}
+
+section.inset, .section.inset {
+  padding: 4em 0.9em 2em;
+  background-color: #e8e8e8;
+}
+
+section.inset-csbs, .section.inset-csbs {
+  padding: 4em 0.9em 2em;
+  background-color: #e5eff1;
+}
+
+section.inset-dumke, .section.inset-dumke {
+  padding: 4em 0.9em 2em;
+  background-color: #e5f4ec;
+}
+
+section.inset-cos, section.inset-cos {
+  padding: 4em 0.9em 2em;
+  background-color: #fef7e8;
+}
+
+section.inset-east, .section.inset-east {
+  padding: 4em 0.9em 2em;
+  background-color: #faeee7;
+}
+
+section.inset-lind, .section.inset-lind {
+  padding: 4em 0.9em 2em;
+  background-color: #e9fafb;
+}
+
+section.inset-godd, .section.inset-godd {
+  padding: 4em 0.9em 2em;
+  background-color: #ecebe9;
+}
+
+section.inset-moyes, .section.inset-moyes {
+  padding: 4em 0.9em 2em;
+  background-color: #f6fbee;
+}
+
+section.inset-purp, .section.inset-purp {
+  padding: 4em 0.9em 2em;
+  background-color: #ece9ef;
+}
+
+/*flex utilities-master-block*/
 /** csbs themes **/
 .csbs--bg {
   background-color: #005f71;
