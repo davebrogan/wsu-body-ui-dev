@@ -1,241 +1,28 @@
 /*flex utilities-master-block*/
 .banner {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-.banner--overlay {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
-.banner__text-wrap h1, .banner__text-wrap h2, .banner__text-wrap p, .banner__text-wrap img, .banner__text-wrap button {
+
+.featured-content {
+  max-width: 1000px;
+}
+
+.featured-content__title {
   color: #FFF;
 }
 
-/*section padding*/
-section.padded-half, .section.padded-half {
-  padding: 2em 0 1em;
+.featured-content__subtitle {
+  color: #FFF;
 }
 
-section.padded-half-even, .section.padded-half-even {
-  padding: 2em 0;
-}
-
-section.padded-full, .section.padded-full {
-  padding: 4em 0 2em;
-}
-
-section.padded-full-even, .section.padded-full-even {
-  padding: 4em 0;
-}
-
-section.padded-extreme, .section.padded-extreme {
-  padding: 6em 0;
-}
-
-section.padded-extreme-even, .section.padded-extreme-even {
-  padding: 6em 0;
-}
-
-section.spacer, .section.spacer {
-  height: 200px;
-}
-
-section.spacer-half, .section.spacer-half {
-  height: 100px;
-}
-
-section.spacer-quarter, .section.spacer-quarter {
-  height: 50px;
-}
-
-.inset {
-  background-color: #e8e8e8;
-}
-
-section.inset, .section.inset {
-  padding: 4em 0.9em 2em;
-  background-color: #e8e8e8;
-}
-
-section.inset-csbs, .section.inset-csbs {
-  padding: 4em 0.9em 2em;
-  background-color: #e5eff1;
-}
-
-section.inset-dumke, .section.inset-dumke {
-  padding: 4em 0.9em 2em;
-  background-color: #e5f4ec;
-}
-
-section.inset-cos, section.inset-cos {
-  padding: 4em 0.9em 2em;
-  background-color: #fef7e8;
-}
-
-section.inset-east, .section.inset-east {
-  padding: 4em 0.9em 2em;
-  background-color: #faeee7;
-}
-
-section.inset-lind, .section.inset-lind {
-  padding: 4em 0.9em 2em;
-  background-color: #e9fafb;
-}
-
-section.inset-godd, .section.inset-godd {
-  padding: 4em 0.9em 2em;
-  background-color: #ecebe9;
-}
-
-section.inset-moyes, .section.inset-moyes {
-  padding: 4em 0.9em 2em;
-  background-color: #f6fbee;
-}
-
-section.inset-purp, .section.inset-purp {
-  padding: 4em 0.9em 2em;
-  background-color: #ece9ef;
-}
-
-/** csbs themes **/
-.csbs--bg {
-  background-color: #005f71;
-}
-
-.csbs2--bg {
-  background-color: #7fafb8;
-}
-
-.csbs3--bg {
-  background-color: #ccdfe3;
-}
-
-.csbs4--bg {
-  background-color: #e5eff1;
-}
-
-.csbs--bg-trans-7 {
-  background-color: rgba(0, 95, 113, 0.7);
-}
-
-.csbs2--bg-trans-7 {
-  background-color: rgba(127, 175, 184, 0.7);
-}
-
-.csbs3--bg-trans-7 {
-  background-color: rgba(204, 223, 227, 0.7);
-}
-
-.csbs4--bg-trans-7 {
-  background-color: rgba(229, 239, 241, 0.7);
-}
-
-.csbs--bg-trans-5 {
-  background-color: rgba(0, 95, 113, 0.5);
-}
-
-.csbs2--bg-trans-5 {
-  background-color: rgba(127, 175, 184, 0.5);
-}
-
-.csbs3--bg-trans-5 {
-  background-color: rgba(204, 223, 227, 0.5);
-}
-
-.csbs4--bg-trans-5 {
-  background-color: rgba(229, 239, 241, 0.5);
-}
-
-.csbs--bg-trans-3 {
-  background-color: rgba(0, 95, 113, 0.3);
-}
-
-.csbs2--bg-trans-3 {
-  background-color: rgba(127, 175, 184, 0.3);
-}
-
-.csbs3--bg-trans-3 {
-  background-color: rgba(204, 223, 227, 0.3);
-}
-
-.csbs4--bg-trans-3 {
-  background-color: rgba(229, 239, 241, 0.3);
-}
-
-.csbs-text {
-  color: #005f71;
-}
-
-/** dumke theme **/
-.dumke--bg {
-  background-color: #099844;
-}
-
-.dumke2--bg {
-  background-color: #7fcba1;
-}
-
-.dumke3--bg {
-  background-color: #cceada;
-}
-
-.dumke4--bg {
-  background-color: #e5f4ec;
-}
-
-.dumke--bg-trans-7 {
-  background-color: rgba(9, 152, 68, 0.7);
-}
-
-.dumke2--bg-trans-7 {
-  background-color: rgba(127, 203, 161, 0.7);
-}
-
-.dumke3--bg-trans-7 {
-  background-color: rgba(204, 234, 218, 0.7);
-}
-
-.dumke4--bg-trans-7 {
-  background-color: rgba(229, 244, 236, 0.7);
-}
-
-.dumke--bg-trans-5 {
-  background-color: rgba(9, 152, 68, 0.5);
-}
-
-.dumke2--bg-trans-5 {
-  background-color: rgba(127, 203, 161, 0.5);
-}
-
-.dumke3--bg-trans-5 {
-  background-color: rgba(204, 234, 218, 0.5);
-}
-
-.dumke4--bg-trans-5 {
-  background-color: rgba(229, 244, 236, 0.5);
-}
-
-.dumke--bg-trans-3 {
-  background-color: rgba(9, 152, 68, 0.3);
-}
-
-.dumke2--bg-trans-3 {
-  background-color: rgba(127, 203, 161, 0.3);
-}
-
-.dumke3--bg-trans-3 {
-  background-color: rgba(204, 234, 218, 0.3);
-}
-
-.dumke4--bg-trans-3 {
-  background-color: rgba(229, 244, 236, 0.3);
-}
-
-.dumke-text {
-  color: #099844;
+.featured-content__copy {
+  color: #FFF;
 }
 
 /*# sourceMappingURL=ui-mod-base.css.map */
