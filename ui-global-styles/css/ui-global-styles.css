@@ -1,4 +1,3 @@
-/*flex utilities-master-block*/
 /*secondary logo svg patch*/
 .secondary-logo {
   height: 55px !important;
@@ -238,7 +237,6 @@ section.inset-purp, .section.inset-purp {
   background-color: #ece9ef;
 }
 
-/*flex utilities-master-block*/
 /** csbs themes **/
 .csbs--bg {
   background-color: #005f71;

@@ -1,19 +1,15 @@
 .featured-content {
   max-width: 1000px;
+  @include flex-column(center, center);
 }
 .featured-content__title {
   color: #FFF !important;
-  font-family: 'tradegothicltstd-boldext', sans-serif;
+  font-family: 'tradegothicltstd-boldext', sans-serif !important;
 }
 .featured-content__subtitle {
   color: #FFF !important;
 }
 .featured-content__copy {
   color: #FFF !important;
-}
-.featured-content__svg-image {
-
-}
-.featured-content__button {
-
+  text-align: center;
 }
