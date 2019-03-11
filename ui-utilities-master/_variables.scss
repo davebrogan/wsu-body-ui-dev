@@ -160,4 +160,15 @@ $break-laptop-over: 1025px;
 $break-desktop: 1500px;
 $break-large-screen: 2400px;
 
-
+//media queries
+$target-phone: "only screen and (max-width: " + $break-phone + ")";
+$target-large-phone: "only screen and (max-width: " + $break-large-phone + ")";
+$target-tablet-under: "only screen and (max-width: " + $break-tablet-under + ")";
+$target-tablet: "only screen and (max-width: " + $break-tablet + ")";
+$target-tablet-range: "only screen and (min-width: " + $break-tablet + ") and (max-width: " + $break-laptop-under + ")";
+$target-tablet-over: "only screen and (min-width: " + $break-tablet + ")";
+$target-laptop-under: "only screen and (max-width: " + $break-laptop-under + ")";
+$target-laptop: "only screen and (max-width: " + $break-laptop + ")";
+$target-laptop-over: "only screen and (min-width: " + $break-laptop-over + ")";
+$target-break-desktop: "only screen and (min-width: " + $break-desktop + ")";
+$target-large-screen: "only screen and (min-width: " + $break-large-screen + ")";

@@ -18,11 +18,25 @@
 
 .featured-content__title {
   color: #FFF !important;
-  font-family: "tradegothicltstd-boldext", sans-serif;
+  font-family: "tradegothicltstd-boldext", sans-serif !important;
+  margin: 0 0 1em 0;
+  font-size: 50px !important;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .featured-content__title {
+    font-size: 5vmin !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .featured-content__title {
+    font-size: 35px !important;
+  }
 }
 
 .featured-content__subtitle {
   color: #FFF !important;
+  font-size: 2em !important;
+  margin-bottom: 2em;
 }
 
 .featured-content__copy {

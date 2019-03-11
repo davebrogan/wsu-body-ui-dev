@@ -15,7 +15,17 @@
 }
 
 /*remove dropdown nav box shadow*/
-.showcase-html-section h1 {
+
+//legacy on-page h1 style
+//.showcase-html-section h1 {
+  //color: #492365;
+  //font-family: 'tradegothicltstd-boldext', sans-serif;
+  //margin: 1em;
+  //text-align: center;
+  //font-size: 2rem;
+//}
+
+.page-title {
   color: #492365;
   font-family: 'tradegothicltstd-boldext', sans-serif;
   margin: 1em;
