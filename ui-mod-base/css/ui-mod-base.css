@@ -1,25 +1,46 @@
+/** banners **/
 .banner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
-
-.featured-content {
-  max-width: 1000px;
+.banner--center {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+.banner--start {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.banner--end {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
 
+/** featured content
+*** a content box used as
+*** an overlay on a image
+*** or color background
+**/
+.featured-content {
+  max-width: 850px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5em 1em;
+}
 .featured-content__title {
   color: #FFF !important;
   font-family: "tradegothicltstd-boldext", sans-serif !important;
-  margin: 0 0 1em 0;
+  margin: 0 0 0.5em 0;
   font-size: 50px !important;
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -29,19 +50,51 @@
 }
 @media only screen and (max-width: 480px) {
   .featured-content__title {
-    font-size: 35px !important;
+    font-size: 50px !important;
   }
 }
-
 .featured-content__subtitle {
   color: #FFF !important;
   font-size: 2em !important;
   margin-bottom: 2em;
 }
-
+@media only screen and (max-width: 480px) {
+  .featured-content__subtitle {
+    font-size: 1.5em !important;
+  }
+}
 .featured-content__copy {
   color: #FFF !important;
-  text-align: center;
+}
+
+/** color text box
+*** a box with a semi-transparent
+*** background that encloses white text
+*** or other content
+ */
+.color-background-box {
+  width: 70%;
+  max-width: 1500px;
+  margin: 4em 0;
+}
+
+/** text box **/
+.text-box {
+  padding: 4em;
+}
+.text-box.-white .text-box__title {
+  color: #FFF;
+  margin-bottom: 20px !important;
+}
+.text-box.-white .text-box__text {
+  color: #FFF;
+}
+.text-box.-gray .text-box__title {
+  color: #575047;
+  margin-bottom: 20px !important;
+}
+.text-box.-gray .text-box__text {
+  color: #575047;
 }
 
 /*# sourceMappingURL=ui-mod-base.css.map */

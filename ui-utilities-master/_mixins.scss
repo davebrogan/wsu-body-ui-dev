@@ -35,6 +35,12 @@
   justify-content: $justify;
 }
 
+@mixin build-container-size($pad-vert, $pad-horiz, $max-width, $max-height:null) {
+  padding: $pad-vert $pad-horiz;
+  max-width: $max-width;
+  max-height: $max-height;
+}
+
 @mixin theme-maker-block($block-name, $modifier-name) {
   &__#{$block-name} {
     #{".-" + $modifier-name} {

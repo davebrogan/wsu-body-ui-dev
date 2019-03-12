@@ -1,28 +1,37 @@
+/** featured content
+*** a content box used as
+*** an overlay on a image
+*** or color background
+**/
 .featured-content {
-  max-width: 1000px;
+  max-width: 850px;
   @include flex-column(center, center);
-}
-
-.featured-content__title {
-  color: #FFF !important;
-  font-family: 'tradegothicltstd-boldext', sans-serif !important;
-  margin: 0 0 .5em 0;
-  font-size: 50px !important;
-  @media #{$target-tablet-range} {
-    font-size: 5vmin !important;
-  }
-  @media #{$target-phone} {
-    font-size: 35px !important;
-  }
-}
-
-.featured-content__subtitle {
-  color: #FFF !important;
-  font-size: 2em !important;
-  margin-bottom: 2em;
-}
-
-.featured-content__copy {
-  color: #FFF !important;
   text-align: center;
+  padding: 5em 1em;
+
+  &__title {
+    color: #FFF !important;
+    font-family: $font-tgbe !important;
+    margin: 0 0 .5em 0;
+    font-size: 50px !important;
+    @media #{$target-tablet-range} {
+      font-size: 5vmin !important;
+    }
+    @media #{$target-phone} {
+      font-size: 50px !important;
+    }
+  }
+
+  &__subtitle {
+    color: #FFF !important;
+    font-size: 2em !important;
+    margin-bottom: 2em;
+    @media #{$target-phone} {
+      font-size: 1.5em !important;
+    }
+  }
+
+  &__copy {
+    color: #FFF !important;
+  }
 }

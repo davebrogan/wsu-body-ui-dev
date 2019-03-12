@@ -139,8 +139,32 @@ $wsuwhite-colors: (
 $gray-text: #575047;
 $white-text: #FFF;
 
-//section padding
+//fonts
+$font-tg: 'tradegothiclt', sans-serif;
+$font-tgl: 'tradegothiclt-light', sans-serif;
+$font-tglo: 'tradegothiclt-lightoblique', sans-serif;
+$font-tgo: 'tradegothicltcom-obl', sans-serif;
+$font-tgb: 'tradegothiclt-bold', sans-serif;
+$font-tgb2: 'tradegothicltcom-bd2', sans-serif;
+$font-tgbo: 'tradegothicltcom-boldobl', sans-serif;
+$font-tgb2o: 'tradegothicltcom-bd2obl', sans-serif;
+$font-tgc18: 'tradegothiclt-condeighteen', sans-serif;
+$font-tgc18o: 'tradegothicltcom-cn18obl', sans-serif;
+$font-tgbc20: 'tradegothicltcom-bdcn20', sans-serif;
+$font-tgbc20o: 'tradegothicltcom-bdcn20obl', sans-serif;
+$font-tge: 'tradegothicltstd-extended', sans-serif;
+$font-tgbe: 'tradegothicltstd-boldext', sans-serif;
+$font-pmnr: 'caecilialtstd-roman', serif;
+$font-pmnl: 'caecilialtstd-light', serif;
+$font-pmnli: 'caecilialtstd-lightitalic', serif;
+$font-pmni: 'caecilialtstd-italic', serif;
+$font-pmnb: 'caecilialtstd-bold', serif;
+$font-pmnbi: 'caecilialtstd-bolditalic', serif;
+$font-pmnh: 'caecilialtstd-heavy', serif;
+$font-pmnhi: 'caecilialtstd-heavyitalic', serif;
 
+
+//section padding
 $padded-extreme: 6em 0;
 $padded-extreme-even: 6em 0;
 $padded-full: 4em 0 2em;

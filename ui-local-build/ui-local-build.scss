@@ -1,7 +1,9 @@
-@import '../ui-utilities-master/_variables.scss';
-@import '../ui-utilities-master/_functions.scss';
-@import '../ui-utilities-master/_mixins.scss';
-@import '../ui-utilities-master/_placeholders.scss';
+@import '../ui-utilities-master/variables.scss';
+@import '../ui-utilities-master/functions.scss';
+@import '../ui-utilities-master/mixins.scss';
+@import '../ui-utilities-master/placeholders.scss';
 
-@import 'modules/banner/scss/_banner_local.scss';
-
+@import 'modules/banner/scss/banner_local.scss';
+@import 'modules/featured-content/scss/featured-content.scss';
+@import 'modules/color-background-box/scss/color-background-box.scss';
+@import 'modules/text-box/scss/text-box.scss';

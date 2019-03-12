@@ -1,0 +1,22 @@
+/** text box **/
+.text-box {
+  padding: 4em;
+  &.-white {
+	.text-box__title {
+	  color: #FFF;
+	  margin-bottom: 20px !important;
+	}
+	.text-box__text {
+	  color: #FFF;
+	}
+  }
+  &.-gray {
+	.text-box__title {
+	  color: #575047;
+	  margin-bottom: 20px !important;
+	}
+	.text-box__text {
+	  color: #575047;
+	}
+  }
+}

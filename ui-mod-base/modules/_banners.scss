@@ -1,6 +1,17 @@
+/** banners **/
 .banner {
-  @include flex-column(center, center);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  //padding: 5em 1em;
+  &--center {
+    @include flex-row(center, center);
+  }
+  &--start {
+    @include flex-row(center, flex-start);
+  }
+  &--end {
+    @include flex-row(center, flex-end);
+  }
 }
+
