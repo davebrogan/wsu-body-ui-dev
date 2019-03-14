@@ -1,8 +1,26 @@
+$width: 100vw !default; //can be vw or px units
+$image-width: 0 !default; //only used for source-aspect, usually width of background image
+$image-height: 0 !default; //only used for source-aspect, usually height of background image
 
 .banner /*always add specific .-modifier*/ {
-  //@include bg-interchange-retina('');
-  //height: calc(100vw / 2);
-  //max-height: Npx;
-  //min-height: Npx;
+  @include bg-interchange-retina('');
+  //max-height: 700px; (optional)
+  //min-height: 350px; (optional)
+  &--2-1 {
+	height: calc(#{$width} * (1 / 2));
+  }
+  &--3-2 {
+	height: calc(#{$width} * (2 / 3));
+  }
+  &--4-3 {
+	height: calc(#{$width} * (3 / 4));
+  }
+  &--16-9 {
+	height: calc(#{$width} * (9 / 16));
+  }
+  //used to scale banner based on image intrinsic dimension values
+  &--source-aspect {
+	height: calc(#{width} * (#{$image-width} / #{$image-height}));
+  }
 }
 

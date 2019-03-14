@@ -10,7 +10,7 @@
   padding: 5em 1em;
 
   &__title {
-    color: #FFF !important;
+    color: $white-title-override;
     font-family: $font-tgbe !important;
     margin: 0 0 .5em 0;
     font-size: 50px !important;
@@ -23,7 +23,7 @@
   }
 
   &__subtitle {
-    color: #FFF !important;
+    color: $white-title-override;
     font-size: 2em !important;
     margin-bottom: 2em;
     @media #{$target-phone} {

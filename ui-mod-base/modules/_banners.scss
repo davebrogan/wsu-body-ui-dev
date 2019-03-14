@@ -4,14 +4,13 @@
   background-position: center center;
   background-repeat: no-repeat;
   //padding: 5em 1em;
-  &--center {
+  &--center-content {
     @include flex-row(center, center);
   }
-  &--start {
+  &--left-content {
     @include flex-row(center, flex-start);
   }
-  &--end {
+  &--right-content {
     @include flex-row(center, flex-end);
   }
 }
-
