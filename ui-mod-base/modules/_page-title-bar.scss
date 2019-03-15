@@ -2,21 +2,21 @@
   border-top: 1px solid #aaa;
   border-bottom: 1px solid #aaa;
   box-shadow: inset 0 5px 10px 0px rgba(0, 0, 0, 0.3);
-  color: #fff;
   padding: 1.5em;
 
   &__icon {
 	.vector {
-	  visibility: hidden;
-	  opacity: 0.5;
-	  @media #{$target-tablet-over} {
-		visibility: visible;
+	  display: none;
+	  opacity: 0.2;
+	  width: 150px;
+	  @media #{$target-laptop-over} {
+		display: block;
 	  }
 	}
   }
 
   &__text-box {
-	@media #{$target-tablet-over} {
+	@media #{$target-laptop-over} {
 	  border-left: 1px solid #dddede;
 	}
   }
