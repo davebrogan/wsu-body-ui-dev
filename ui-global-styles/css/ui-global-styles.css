@@ -176,6 +176,7 @@ section.padded-extreme-even, .section.padded-extreme-even {
   padding: 6em 0;
 }
 
+/*verticle spacers*/
 section.spacer, .section.spacer {
   height: 200px;
 }
@@ -188,6 +189,7 @@ section.spacer-quarter, .section.spacer-quarter {
   height: 50px;
 }
 
+/*colored background insets, usually lightest shade on each palette color*/
 .inset {
   background-color: #e8e8e8;
 }

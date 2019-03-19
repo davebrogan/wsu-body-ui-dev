@@ -171,6 +171,7 @@
 }
 .feature-box__button {
   align-self: center;
+  background-color: #492365;
 }
 .feature-box.-shadow {
   box-shadow: 0 0 10px 2px #EEEDEC;
