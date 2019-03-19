@@ -15,36 +15,36 @@
 }
 /*remove dropdown nav box shadow*/
 .page-title {
-  color: #492365;
-  font-family: "tradegothicltstd-boldext", sans-serif;
+  color: #492365 !important;
+  font-family: "tradegothicltstd-boldext", sans-serif !important;
   margin: 1em;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2rem !important;
 }
 
 .showcase-html-section {
   padding-top: 0;
 }
 
-.banner {
+.fullwidth, .-fullwidth, .stretchbox, .-stretchbox, .banner {
   width: 100%;
 }
 
-.fullwidth {
-  width: 100%;
-}
-
-.offscreen {
+.offscreen, .-offscreen {
   position: absolute;
   left: -10000px;
 }
 
-.stretchbox {
-  width: 100%;
-}
-
 .clearfix {
   clear: both;
+}
+
+.centered-text, .-centered-text, .text-center, .-text-center {
+  text-align: center;
+}
+
+.hidden, .-hidden {
+  display: none;
 }
 
 .sizeup1-3 {

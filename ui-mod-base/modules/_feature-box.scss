@@ -1,0 +1,49 @@
+.feature-box {
+  margin-bottom: 2rem;
+  background-color: #FFF;
+  @include flex-column(stretch, center);
+
+  &__header-image__image {
+	width: 100%;
+	&:hover {
+	  opacity: 0.8;
+	}
+  }
+
+  &__title {
+	background-color: #492365; /*enter color specific to department*/
+	padding: 10px;
+	color: #fafafa !important;
+	margin: 0;
+	font-size: 1.5em;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 100%;
+  }
+
+  &__content {
+	padding: 1.5em;
+  }
+
+  &__button {
+	align-self: center;
+	background-color: #492365;
+  }
+
+  &.-shadow {
+	box-shadow: 0 0 10px 2px #EEEDEC;
+  }
+
+  &.-no-header {
+	.feature-box__header-image {
+	  display: none;
+	}
+  }
+
+  &.-no-content {
+	.feature-box__content, .feature-box__button {
+	  display: none;
+	}
+  }
+}

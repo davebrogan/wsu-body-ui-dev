@@ -1,3 +1,4 @@
+//background image utilities
 @mixin bg-img($url) {
   background-image: url($url);
 }
@@ -40,6 +41,13 @@
   max-width: $max-width;
   max-height: $max-height;
 }
+
+//calculates a consistent width to height ratio based either on an aspect ratio (ex.: 16:9)
+// or the pixel dimensions of the original image
+@mixin aspect-ratio($container-width, $aspect-width, $aspect-height) {
+  height: calc ($container-width * ($aspect-height / $aspect-width));
+}
+
 
 @mixin theme-maker-block($block-name, $modifier-name) {
   &__#{$block-name} {
