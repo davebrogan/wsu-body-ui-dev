@@ -1,0 +1,18 @@
+/**
+*** align content within container
+**/
+.-center-content {
+  @include flex-row(center, center);
+}
+.-left-content {
+  @include flex-row(center, flex-start);
+  @media #{$target-tablet} {
+	@include flex-row(center, center);
+  }
+}
+.-right-content {
+  @include flex-row(center, flex-end);
+  @media #{$target-tablet} {
+	@include flex-row(center, center);
+  }
+}

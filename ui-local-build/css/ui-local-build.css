@@ -1,28 +1,21 @@
+/** banner local build **/
 .banner {
-  background-image: url("");
+  background-image: url("https://apps.weber.edu/wsuimages/davidbrogan/images/night-star-filter-overlay-1x.jpg");
 }
 @media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
   .banner {
-    background-image: url("");
+    background-image: url("https://apps.weber.edu/wsuimages/davidbrogan/images/night-star-filter-overlay-2x.jpg");
   }
 }
-.banner--2-1 {
-  height: calc(100vw * (1 / 2));
-}
-.banner--3-2 {
-  height: calc(100vw * (2 / 3));
-}
-.banner--4-3 {
-  height: calc(100vw * (3 / 4));
-}
-.banner--16-9 {
+.banner--aspect-16-9 {
   height: calc(100vw * (9 / 16));
-}
-.banner--source-aspect {
-  height: calc(width * (0 / 0));
 }
 
 /** featured content local build **/
 /** color-background-box local build **/
+/** text-box local build **/
+/** page-title-bar local build **/
+/** page-title-space local build **/
+/** feature-box local build **/
 
 /*# sourceMappingURL=ui-local-build.css.map */

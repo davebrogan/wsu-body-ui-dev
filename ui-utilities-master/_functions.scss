@@ -1,8 +1,9 @@
-
-/// Format and test integers entered as arguments. Works for wsu-palette function to format numbers entered as opacity values
-/// @author Dave Brogan
-/// @param {String} $value - data entered as arg
-/// @return $abs-value - a whole integer between 1 and 10
+//
+// Format and test integers entered as arguments. Works for wsu-palette function to format numbers entered as opacity values
+// @author Dave Brogan
+// @param {String} $value - data entered as arg
+// @return $abs-value - a whole integer between 1 and 10
+//
 @function opacity-value-checker($value) {
 
   @if type-of($value) != number {
@@ -32,7 +33,9 @@
   }
 }
 
-/// Generates colors from the "base colors" data set in _variables.scss
+//
+// Generates colors from the "base colors" data set in _variables.scss
+//
 @function wsu-palette($map-name, $color-number, $opacity: 1) {
   $color-key: map-get($map-name, color-name) + $color-number;
 
@@ -48,12 +51,14 @@
   @return $color-out;
 }
 
-/// Replace `$search` with `$replace` in `$string`
-/// @author Hugo Giraudel
-/// @param {String} $string - Initial string
-/// @param {String} $search - Substring to replace
-/// @param {String} $replace ('') - New value
-/// @return {String} - Updated string
+//
+// Replace `$search` with `$replace` in `$string`
+// @author Hugo Giraudel
+// @param {String} $string - Initial string
+// @param {String} $search - Substring to replace
+// @param {String} $replace ('') - New value
+// @return {String} - Updated string
+//
 @function str-replace($string, $search, $replace: '') {
   $index: str-index($string, $search);
 
@@ -64,10 +69,12 @@
   @return $string;
 }
 
+//
+// takes a 1x file name and changes the "1x" to "2x"
+//
 @function img-res-double($file-name) {
-  //takes a 1x file name and changes the "1x" to "2x"
 
-  $doubleString: str-replace($file-name, "-1x", "-2x");
+  $doubleString: str-replace($file-name, '-1x', '-2x');
 
   @return $doubleString;
 }

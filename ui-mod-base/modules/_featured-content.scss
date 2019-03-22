@@ -1,8 +1,9 @@
-/** featured content
-*** a content box used as
-*** an overlay on a image
-*** or color background
+/**
+*** featured content
 **/
+//
+// a content box used as an overlay on a image or color background
+//
 .featured-content {
   max-width: 850px;
   @include flex-column(center, center);
