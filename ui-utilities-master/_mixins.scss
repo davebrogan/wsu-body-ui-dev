@@ -72,6 +72,14 @@
     &--aspect-16-9 {
       height: calc(#{$container-width} * (#{$aspect-height} / #{$aspect-width}));
     }
+  } @else if $aspect-width == 21 and $aspect-height == 9 {
+    &--aspect-21-9 {
+      height: calc(#{$container-width} * (#{$aspect-height} / #{$aspect-width}));
+    }
+  } @else if $aspect-width == 4 and $aspect-height == 1 {
+    &--aspect-4-1 {
+      height: calc(#{$container-width} * (#{$aspect-height} / #{$aspect-width}));
+    }
   } @else {
     &--aspect-source {
       height: #{$height};

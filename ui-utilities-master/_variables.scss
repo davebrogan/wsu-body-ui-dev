@@ -137,26 +137,9 @@ $wsuwhite-colors: (
 		'white4': rgba(255,255,255,0),
 );
 
-$color-names: (
-		cos: $cos-colors,
-		csbs: $csbs-colors,
-		dumke: $dumke-colors,
-		east: $east-colors,
-		godd: $godd-colors,
-		hlcolor: $hlcolor-colors,
-		lind: $lind-colors,
-		mauve: $mauve-colors,
-		moyes: $moyes-colors,
-		unigray: $unigray-colors,
-		wcpurp: $wcpurp-colors,
-		wsumauve: $wsumauve-colors,
-		wsubrown: $wsubrown-colors,
-		wsured: $wsured-colors,
-		wsublue: $wsublue-colors,
-		wsugreen: $wsugreen-colors,
-		wsuwhite: $wsuwhite-colors,
-);
-
+//
+// base colors - map of maps
+//
 $wsu-colors: (
 		$cos-colors: (
 				color-name: 'cos',
@@ -295,12 +278,36 @@ $wsu-colors: (
 		),
 );
 
+//
+// cap for accessing color names
+//
+$color-names: (
+		cos: $cos-colors,
+		csbs: $csbs-colors,
+		dumke: $dumke-colors,
+		east: $east-colors,
+		godd: $godd-colors,
+		hlcolor: $hlcolor-colors,
+		lind: $lind-colors,
+		mauve: $mauve-colors,
+		moyes: $moyes-colors,
+		unigray: $unigray-colors,
+		wcpurp: $wcpurp-colors,
+		wsumauve: $wsumauve-colors,
+		wsubrown: $wsubrown-colors,
+		wsured: $wsured-colors,
+		wsublue: $wsublue-colors,
+		wsugreen: $wsugreen-colors,
+		wsuwhite: $wsuwhite-colors,
+);
+
 $gray-text: #575047;
 $white-text: #FFF;
 $white-title-override: #FFF !important;
 
+
 //
-//fonts
+// fonts
 //
 $font-tg: 'tradegothiclt', sans-serif;
 $font-tgl: 'tradegothiclt-light', sans-serif;
@@ -325,8 +332,9 @@ $font-pmnbi: 'caecilialtstd-bolditalic', serif;
 $font-pmnh: 'caecilialtstd-heavy', serif;
 $font-pmnhi: 'caecilialtstd-heavyitalic', serif;
 
+
 //
-//section padding
+// section padding
 //
 $padded-extreme: 6em 0;
 $padded-extreme-even: 6em 0;
@@ -335,8 +343,9 @@ $padded-full-even: 4em 0;
 $padded-half: 2em 0 1em;
 $padded-half-even: 2em 0;
 
+
 //
-//breakpoints
+// breakpoints
 //
 $break-phone: 480px;
 $break-large-phone: 640px;
@@ -350,7 +359,17 @@ $break-desktop: 1500px;
 $break-large-screen: 2400px;
 
 //
-//media queries
+// aspect ratios
+//
+$aspect-2-1: calc(100vw * (1 / 2));
+$aspect-3-2: calc(100vw * (2 / 3));
+$aspect-4-3: calc(100vw * (3 / 4));
+$aspect-16-9: calc(100vw * (9 / 16));
+$aspect-21-9: calc(100vw * (9 / 21));
+$aspect-4-1: calc(100vw * (1 / 4));
+
+//
+// media queries
 //
 $target-phone: "only screen and (max-width: " + $break-phone + ")";
 $target-large-phone: "only screen and (max-width: " + $break-large-phone + ")";

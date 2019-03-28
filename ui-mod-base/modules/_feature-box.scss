@@ -14,7 +14,8 @@
   }
 
   &__title {
-	background-color: #492365; /*enter color specific to department*/
+	// use theme class on block to change color
+	background-color: #492365;
 	padding: 10px;
 	color: #fafafa !important;
 	margin: 0;
@@ -30,12 +31,16 @@
   }
 
   &__button {
-	align-self: center;
+	// use theme class on block to change color
 	background-color: #492365;
+	align-self: center;
   }
 
   &.-shadow {
-	box-shadow: 0 0 10px 2px #EEEDEC;
+	box-shadow: 0 0 10px 2px #ccc;
+	@media screen and (min-resolution: 192dpi) {
+	  box-shadow: 0 0 10px 2px #eee;
+	}
   }
 
   &--no-header {
