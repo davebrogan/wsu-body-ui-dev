@@ -35,4 +35,10 @@
   &__copy {
     color: #FFF !important;
   }
+
+  &--gray {
+    &__title, &__subtitle, &__copy {
+      color: #575047;
+    }
+  }
 }

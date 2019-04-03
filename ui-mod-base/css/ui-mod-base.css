@@ -99,6 +99,9 @@
 .featured-content__copy {
   color: #FFF !important;
 }
+.featured-content--gray__title, .featured-content--gray__subtitle, .featured-content--gray__copy {
+  color: #575047;
+}
 
 /**
 color-background-box

@@ -1,8 +1,8 @@
 /**** wsu main button colors ****/
 /*wcpurp*/
-.button.color-1 {
+.button.color-1, .button.-wcpurp-button{
   background: #492365; }
-.button.color-1:hover {
+.button.color-1:hover, .button.-wcpurp-button:hover {
   background: #64308b; }
 
 /*unigray*/
@@ -51,9 +51,9 @@
   background: #008f71; }
 
 /*lind*/
-.button.color-10 {
+.button.color-10, .button.-lind-button {
   background: #25cad3; }
-.button.color-10:hover {
+.button.color-10:hover, .button.-lind-button:hover {
   background: #4bd8e0; }
 
 /*csbs*/
