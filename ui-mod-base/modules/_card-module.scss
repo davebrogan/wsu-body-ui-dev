@@ -1,0 +1,41 @@
+/**
+*** cards ***
+**/
+.card-module {
+  background-color: #FFF;
+  margin-bottom: 16px;
+  padding-bottom: 8%;
+  @include flex-column(center, center);
+  &__header {
+	@include flex-row(center, center);
+	padding: 24px;
+	background-color: wsu-palette($wcpurp-colors, 1);
+	width: 100%;
+  }
+  &__content {
+	@include flex-column(start, start);
+	padding: 8%;
+
+  }
+  &__title {
+	font-size: 1.5em !important;
+	margin-bottom: 16px;
+  }
+  &__button {
+	display: block;
+	background-color: wsu-palette($wcpurp-colors, 1);
+  }
+  &--centered {
+	.card-module__content {
+	  @include flex-column(center, start);
+	  text-align: center;
+	}
+  }
+}
+
+/**
+*** card-module themes
+**/
+.card-module {
+  @include card-module-themes();
+}

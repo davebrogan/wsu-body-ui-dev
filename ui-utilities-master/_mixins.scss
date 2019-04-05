@@ -119,6 +119,24 @@
   }
 }
 
+@mixin card-module-themes {
+  $self: &;
+  @each $name, $color in $color-names {
+    &.-#{$name}-theme {
+      $theme-color: wsu-palette($color, 1);
+      #{$self}__header {
+        background-color: $theme-color;
+      }
+      #{$self}__button {
+        background-color: $theme-color;
+        &:hover {
+          background-color: lighten($theme-color, 10%);
+        }
+      }
+    }
+  }
+}
+
 @mixin theme-maker-block($block-name, $modifier-name) {
   &__#{$block-name} {
     #{".-" + $modifier-name} {

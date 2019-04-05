@@ -60,25 +60,204 @@
 }
 
 /**
-*** cards
+*** cards ***
 **/
-.card {
+.card-module {
   background-color: #FFF;
   margin-bottom: 16px;
+  padding-bottom: 8%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.card__header {
+.card-module__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   padding: 24px;
   background-color: #492365;
+  width: 100%;
 }
-.card__content {
-  padding: 24px;
+.card-module__content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  padding: 8%;
 }
-.card__title {
-  font-size: 1.5em;
+.card-module__title {
+  font-size: 1.5em !important;
+  margin-bottom: 16px;
+}
+.card-module__button {
+  display: block;
+  background-color: #492365;
+}
+.card-module--centered .card-module__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+}
+
+/**
+*** card-module themes
+**/
+.card-module.-cos-theme .card-module__header {
+  background-color: #f6b221;
+}
+.card-module.-cos-theme .card-module__button {
+  background-color: #f6b221;
+}
+.card-module.-cos-theme .card-module__button:hover {
+  background-color: #f8c352;
+}
+.card-module.-csbs-theme .card-module__header {
+  background-color: #005f71;
+}
+.card-module.-csbs-theme .card-module__button {
+  background-color: #005f71;
+}
+.card-module.-csbs-theme .card-module__button:hover {
+  background-color: #008aa4;
+}
+.card-module.-dumke-theme .card-module__header {
+  background-color: #099844;
+}
+.card-module.-dumke-theme .card-module__button {
+  background-color: #099844;
+}
+.card-module.-dumke-theme .card-module__button:hover {
+  background-color: #0cc85a;
+}
+.card-module.-east-theme .card-module__header {
+  background-color: #d25d12;
+}
+.card-module.-east-theme .card-module__button {
+  background-color: #d25d12;
+}
+.card-module.-east-theme .card-module__button:hover {
+  background-color: #ed762a;
+}
+.card-module.-godd-theme .card-module__header {
+  background-color: #483627;
+}
+.card-module.-godd-theme .card-module__button {
+  background-color: #483627;
+}
+.card-module.-godd-theme .card-module__button:hover {
+  background-color: #694f39;
+}
+.card-module.-hlcolor-theme .card-module__header {
+  background-color: #8446ac;
+}
+.card-module.-hlcolor-theme .card-module__button {
+  background-color: #8446ac;
+}
+.card-module.-hlcolor-theme .card-module__button:hover {
+  background-color: #9c65c0;
+}
+.card-module.-lind-theme .card-module__header {
+  background-color: #25cad3;
+}
+.card-module.-lind-theme .card-module__button {
+  background-color: #25cad3;
+}
+.card-module.-lind-theme .card-module__button:hover {
+  background-color: #4bd8e0;
+}
+.card-module.-mauve-theme .card-module__header {
+  background-color: #691940;
+}
+.card-module.-mauve-theme .card-module__button {
+  background-color: #691940;
+}
+.card-module.-mauve-theme .card-module__button:hover {
+  background-color: #922359;
+}
+.card-module.-moyes-theme .card-module__header {
+  background-color: #a3d55d;
+}
+.card-module.-moyes-theme .card-module__button {
+  background-color: #a3d55d;
+}
+.card-module.-moyes-theme .card-module__button:hover {
+  background-color: #bae086;
+}
+.card-module.-unigray-theme .card-module__header {
+  background-color: #575047;
+}
+.card-module.-unigray-theme .card-module__button {
+  background-color: #575047;
+}
+.card-module.-unigray-theme .card-module__button:hover {
+  background-color: #736a5e;
+}
+.card-module.-wcpurp-theme .card-module__header {
+  background-color: #492365;
+}
+.card-module.-wcpurp-theme .card-module__button {
+  background-color: #492365;
+}
+.card-module.-wcpurp-theme .card-module__button:hover {
+  background-color: #64308b;
+}
+.card-module.-wsumauve-theme .card-module__header {
+  background-color: #691940;
+}
+.card-module.-wsumauve-theme .card-module__button {
+  background-color: #691940;
+}
+.card-module.-wsumauve-theme .card-module__button:hover {
+  background-color: #922359;
+}
+.card-module.-wsubrown-theme .card-module__header {
+  background-color: #84471e;
+}
+.card-module.-wsubrown-theme .card-module__button {
+  background-color: #84471e;
+}
+.card-module.-wsubrown-theme .card-module__button:hover {
+  background-color: #ae5d27;
+}
+.card-module.-wsured-theme .card-module__header {
+  background-color: #a52428;
+}
+.card-module.-wsured-theme .card-module__button {
+  background-color: #a52428;
+}
+.card-module.-wsured-theme .card-module__button:hover {
+  background-color: #cf2d32;
+}
+.card-module.-wsublue-theme .card-module__header {
+  background-color: #346094;
+}
+.card-module.-wsublue-theme .card-module__button {
+  background-color: #346094;
+}
+.card-module.-wsublue-theme .card-module__button:hover {
+  background-color: #4178ba;
+}
+.card-module.-wsugreen-theme .card-module__header {
+  background-color: #005c49;
+}
+.card-module.-wsugreen-theme .card-module__button {
+  background-color: #005c49;
+}
+.card-module.-wsugreen-theme .card-module__button:hover {
+  background-color: #008f71;
+}
+.card-module.-wsuwhite-theme .card-module__header {
+  background-color: white;
+}
+.card-module.-wsuwhite-theme .card-module__button {
+  background-color: white;
+}
+.card-module.-wsuwhite-theme .card-module__button:hover {
+  background-color: white;
 }
 
 /**
@@ -406,6 +585,9 @@ color-background-box
   }
 }
 
+/**
+*** icon
+**/
 .icon {
   color: #FFF;
   width: 100px;
@@ -464,6 +646,14 @@ color-background-box
     align-items: center;
     justify-content: center;
   }
+}
+
+.-center-all-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .-shadow {

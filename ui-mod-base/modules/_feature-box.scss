@@ -58,5 +58,5 @@
 
 /** feature box themes **/
 .feature-box {
-  @include feature-box-themes;
+  @include feature-box-themes();
 }
