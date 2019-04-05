@@ -1,0 +1,19 @@
+.icon {
+  color: #FFF;
+  width: 100px;
+  &-xlarge {
+	width: 150px;
+  }
+  &-large {
+	width: 100px;
+  }
+  &-medium {
+	width: 75px;
+  }
+  &-small {
+	width: 50px;
+  }
+  &-tiny {
+	width: 25px
+  }
+}

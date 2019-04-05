@@ -1,0 +1,15 @@
+.card {
+  background-color: #FFF;
+  margin-bottom: 16px;
+  @include flex-column(center, center);
+  &__header {
+	padding: 24px;
+	background-color: wsu-palette($wcpurp-colors, 1);
+  }
+  &__content {
+	padding: 24px;
+  }
+  &__title {
+	font-size: 1.5em;
+  }
+}

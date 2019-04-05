@@ -4,6 +4,8 @@
 @import '../ui-utilities-master/placeholders.scss';
 
 @import 'modules/banner/scss/banner_local.scss';
+@import 'modules/button/scss/_button_local.scss';
+@import 'modules/card/scss/card_local';
 @import 'modules/featured-content/scss/featured-content_local';
 @import 'modules/color-background-box/scss/color-background-box_local';
 @import 'modules/text-box/scss/text-box_local';
@@ -11,3 +13,4 @@
 @import 'modules/page-title-space/scss/page-title-space_local.scss';
 @import 'modules/feature-box/scss/feature-box_local';
 @import 'modules/responsive-image/scss/responsive-image_local';
+@import 'modules/icon/scss/icon_local';

@@ -1,0 +1,129 @@
+/**** wsu main button colors ****/
+.button {
+  &.color-1, &.-wcpurp, &--wcpurp {
+    $base-color: wsu-palette($wcpurp-colors, 1);
+    background-color: $base-color;
+    &:hover {
+      background-color: lighten($base-color, 10%);
+    }
+  }
+  &.color-2, &.-unigray, &--unigray {
+    $base-color: wsu-palette($unigray-colors, 1);
+    background-color: $base-color;
+    &:hover {
+      background-color: lighten($base-color, 10%);
+    }
+  }
+  &.color-3 {
+    $base-color: #7F56C5;
+    background-color: $base-color;
+    &:hover {
+      background-color: lighten($base-color, 10%);
+    }
+  }
+  &.color-4, &.-hlcolor, &--hlcolor {
+    $base-color: wsu-palette($hlcolor-colors, 1);
+    background-color: $base-color;
+    &:hover {
+      background-color: lighten($base-color, 10%);
+    }
+  }
+  &.color-5 {
+    $base-color: #a391b1;
+    background-color: $base-color;
+    &:hover {
+      background-color: lighten($base-color, 10%);
+    }
+  }
+  &.color-6 {
+    $base-color: #aa989c;
+    background-color: $base-color;
+    &:hover {
+      background-color: lighten($base-color, 10%);
+    }
+  }
+  &.color-7, &.-moyes, &--moyes {
+    $base-color: wsu-palette($moyes-colors, 1);
+    background-color: $base-color;
+    &:hover {
+      background-color: lighten($base-color, 10%);
+    }
+  }
+  &.color-8, &.-dumke, &--dumke {
+    $base-color: wsu-palette($dumke-colors, 1);
+    background-color: $base-color;
+    &:hover {
+      background-color: lighten($base-color, 10%);
+    }
+  }
+  &.color-9, &.-wsugreen, &--wsugreen {
+    $base-color: wsu-palette($wsugreen-colors, 1);
+    background-color: $base-color;
+    &:hover {
+      background-color: lighten($base-color, 10%);
+    }
+  }
+  &.color-10, &.-lind, &--lind {
+    $base-color: wsu-palette($lind-colors, 1);
+    background-color: $base-color;
+    &:hover {
+      background-color: lighten($base-color, 10%);
+    }
+  }
+  &.color-11, &.-csbs, &--csbs {
+    $base-color: wsu-palette($csbs-colors, 1);
+    background-color: $base-color;
+    &:hover {
+      background-color: lighten($base-color, 10%);
+    }
+  }
+  &.color-12, &.-wsublue, &--wsublue {
+    $base-color: wsu-palette($wsublue-colors, 1);
+    background-color: $base-color;
+    &:hover {
+      background-color: lighten($base-color, 10%);
+    }
+  }
+  &.color-13, &.-wsumauve, &--wsumauve {
+    $base-color: wsu-palette($wsumauve-colors, 1);
+    background-color: $base-color;
+    &:hover {
+      background-color: lighten($base-color, 10%);
+    }
+  }
+  &.color-14, &.-wsured, &--wsured {
+    $base-color: wsu-palette($wsured-colors, 1);
+    background-color: $base-color;
+    &:hover {
+      background-color: lighten($base-color, 10%);
+    }
+  }
+  &.color-15, &.-east, &--east {
+    $base-color: wsu-palette($east-colors, 1);
+    background-color: $base-color;
+    &:hover {
+      background-color: lighten($base-color, 10%);
+    }
+  }
+  &.color-16, &.-cos, &--cos {
+    $base-color: wsu-palette($cos-colors, 1);
+    background-color: $base-color;
+    &:hover {
+      background-color: lighten($base-color, 10%);
+    }
+  }
+  &.color-17, &.-wsubrown, &--wsubrown {
+    $base-color: wsu-palette($wsubrown-colors, 1);
+    background-color: $base-color;
+    &:hover {
+      background-color: lighten($base-color, 10%);
+    }
+  }
+  &.color-1, &.godd, &--godd {
+    $base-color: wsu-palette($godd-colors, 1);
+    background-color: $base-color;
+    &:hover {
+      background-color: lighten($base-color, 10%);
+    }
+  }
+}

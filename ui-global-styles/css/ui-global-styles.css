@@ -48,163 +48,113 @@
 }
 
 /**** wsu main button colors ****/
-/*wcpurp*/
-.button.color-1, .button.-wcpurp-button {
-  background: #492365;
+.button.color-1, .button.-wcpurp, .button--wcpurp {
+  background-color: #492365;
 }
-
-.button.color-1:hover, .button.-wcpurp-button:hover {
-  background: #64308b;
+.button.color-1:hover, .button.-wcpurp:hover, .button--wcpurp:hover {
+  background-color: #64308b;
 }
-
-/*unigray*/
-.button.color-2 {
-  background: #575047;
+.button.color-2, .button.-unigray, .button--unigray {
+  background-color: #575047;
 }
-
-.button.color-2:hover {
-  background: #736a5e;
+.button.color-2:hover, .button.-unigray:hover, .button--unigray:hover {
+  background-color: #736a5e;
 }
-
 .button.color-3 {
-  background: #7f56c5;
+  background-color: #7F56C5;
 }
-
 .button.color-3:hover {
-  background: #9c7cd2;
+  background-color: #9c7cd2;
 }
-
-/*hlcolor*/
-.button.color-4 {
-  background: #8446ac;
+.button.color-4, .button.-hlcolor, .button--hlcolor {
+  background-color: #8446ac;
 }
-
-.button.color-4:hover {
-  background: #9c65c0;
+.button.color-4:hover, .button.-hlcolor:hover, .button--hlcolor:hover {
+  background-color: #9c65c0;
 }
-
 .button.color-5 {
-  background: #a391b1;
+  background-color: #a391b1;
 }
-
 .button.color-5:hover {
-  background: #bcafc6;
+  background-color: #bcafc6;
 }
-
 .button.color-6 {
-  background: #aa989c;
+  background-color: #aa989c;
 }
-
 .button.color-6:hover {
-  background: #c1b4b7;
+  background-color: #c1b4b7;
 }
-
-/*moyes*/
-.button.color-7 {
-  background: #a3d55d;
+.button.color-7, .button.-moyes, .button--moyes {
+  background-color: #a3d55d;
 }
-
-.button.color-7:hover {
-  background: #bae086;
+.button.color-7:hover, .button.-moyes:hover, .button--moyes:hover {
+  background-color: #bae086;
 }
-
-/*dumke*/
-.button.color-8 {
-  background: #009844;
+.button.color-8, .button.-dumke, .button--dumke {
+  background-color: #099844;
 }
-
-.button.color-8:hover {
-  background: #00cb5b;
+.button.color-8:hover, .button.-dumke:hover, .button--dumke:hover {
+  background-color: #0cc85a;
 }
-
-/*wsugreen*/
-.button.color-9 {
-  background: #005c49;
+.button.color-9, .button.-wsugreen, .button--wsugreen {
+  background-color: #005c49;
 }
-
-.button.color-9:hover {
-  background: #008f71;
+.button.color-9:hover, .button.-wsugreen:hover, .button--wsugreen:hover {
+  background-color: #008f71;
 }
-
-/*lind*/
-.button.color-10, .button.-lind-button {
-  background: #25cad3;
+.button.color-10, .button.-lind, .button--lind {
+  background-color: #25cad3;
 }
-
-.button.color-10:hover, .button.-lind-button:hover {
-  background: #4bd8e0;
+.button.color-10:hover, .button.-lind:hover, .button--lind:hover {
+  background-color: #4bd8e0;
 }
-
-/*csbs*/
-.button.color-11 {
-  background: #005f71;
+.button.color-11, .button.-csbs, .button--csbs {
+  background-color: #005f71;
 }
-
-.button.color-11:hover {
-  background: #008aa4;
+.button.color-11:hover, .button.-csbs:hover, .button--csbs:hover {
+  background-color: #008aa4;
 }
-
-/*wsublue*/
-.button.color-12 {
-  background: #346094;
+.button.color-12, .button.-wsublue, .button--wsublue {
+  background-color: #346094;
 }
-
-.button.color-12:hover {
-  background: #4178ba;
+.button.color-12:hover, .button.-wsublue:hover, .button--wsublue:hover {
+  background-color: #4178ba;
 }
-
-/*wsumauve*/
-.button.color-13 {
-  background: #691940;
+.button.color-13, .button.-wsumauve, .button--wsumauve {
+  background-color: #691940;
 }
-
-.button.color-13:hover {
-  background: #922359;
+.button.color-13:hover, .button.-wsumauve:hover, .button--wsumauve:hover {
+  background-color: #922359;
 }
-
-/*wsured*/
-.button.color-14 {
-  background: #a52428;
+.button.color-14, .button.-wsured, .button--wsured {
+  background-color: #a52428;
 }
-
-.button.color-14:hover {
-  background: #cf2d32;
+.button.color-14:hover, .button.-wsured:hover, .button--wsured:hover {
+  background-color: #cf2d32;
 }
-
-/*east*/
-.button.color-15 {
-  background: #d25d12;
+.button.color-15, .button.-east, .button--east {
+  background-color: #d25d12;
 }
-
-.button.color-15:hover {
-  background: #ed762a;
+.button.color-15:hover, .button.-east:hover, .button--east:hover {
+  background-color: #ed762a;
 }
-
-/*cos*/
-.button.color-16 {
-  background: #f6b221;
+.button.color-16, .button.-cos, .button--cos {
+  background-color: #f6b221;
 }
-
-.button.color-16:hover {
-  background: #f8c352;
+.button.color-16:hover, .button.-cos:hover, .button--cos:hover {
+  background-color: #f8c352;
 }
-
-/*wsubrown*/
-.button.color-17 {
-  background: #84471e;
+.button.color-17, .button.-wsubrown, .button--wsubrown {
+  background-color: #84471e;
 }
-
-.button.color-17:hover {
-  background: #ae5d27;
+.button.color-17:hover, .button.-wsubrown:hover, .button--wsubrown:hover {
+  background-color: #ae5d27;
 }
-
-/*godd*/
-.button.color-18 {
-  background: #483627;
+.button.color-1, .button.godd, .button--godd {
+  background-color: #483627;
 }
-
-.button.color-18:hover {
-  background: #694f39;
+.button.color-1:hover, .button.godd:hover, .button--godd:hover {
+  background-color: #694f39;
 }
 
 .sizeup1-3 {
@@ -309,6 +259,11 @@
 
 .to-lowercase {
   text-transform: none;
+}
+
+.tgb-text {
+  font-family: "tradegothiclt-bold", sans-serif;
+  font-size: 1.25em;
 }
 
 /*section padding*/
