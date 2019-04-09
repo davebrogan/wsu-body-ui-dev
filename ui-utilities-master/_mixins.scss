@@ -137,6 +137,29 @@
   }
 }
 
+@mixin card-overlay-themes {
+  $self: &;
+  @each $name, $color in $color-names {
+    &.-#{$name}-theme {
+      $theme-color: wsu-palette($color, 1);
+      #{$self}__link {
+        color: $theme-color;
+        &:hover {
+          color: darken($theme-color, 20%);
+        }
+      }
+      #{$self}__button {
+        background-color: $theme-color;
+        &:hover {
+          background-color: darken($theme-color, 20%);
+        }
+      }
+    }
+  }
+}
+
+
+
 @mixin theme-maker-block($block-name, $modifier-name) {
   &__#{$block-name} {
     #{".-" + $modifier-name} {

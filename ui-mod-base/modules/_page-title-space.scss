@@ -3,6 +3,14 @@
 **/
 .page-title-space {
   padding: 25px 0 35px;
+  //title uses .page-title global style
+  h2.page-title-space__sub-title {
+	color: #492365 !important;
+	font-family: "tradegothicltstd-boldext", sans-serif !important;
+	margin: 1em !important;
+	text-align: center;
+	font-size: 2rem !important;
+  }
   &__text {
 	text-align: center;
 	font-size: 1.3em;

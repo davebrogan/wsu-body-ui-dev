@@ -268,27 +268,27 @@
 
 /*section padding*/
 section.padded-half, .section.padded-half {
-  padding: 2em 0 1em;
+  padding: 2em 0.9em 1em;
 }
 
 section.padded-half-even, .section.padded-half-even {
-  padding: 2em 0;
+  padding: 2em 0.9em;
 }
 
 section.padded-full, .section.padded-full {
-  padding: 4em 0 2em;
+  padding: 4em 0.9em 2em;
 }
 
 section.padded-full-even, .section.padded-full-even {
-  padding: 4em 0;
+  padding: 4em 0.9em;
 }
 
 section.padded-extreme, .section.padded-extreme {
-  padding: 6em 0;
+  padding: 6em 0.9em;
 }
 
 section.padded-extreme-even, .section.padded-extreme-even {
-  padding: 6em 0;
+  padding: 6em 0.9em;
 }
 
 /*verticle spacers*/

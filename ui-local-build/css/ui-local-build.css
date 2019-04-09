@@ -11,6 +11,22 @@
   height: calc(100vw * (9 / 16));
 }
 
+/***
+*** button css is located in ui-global-styles
+***/
+.card-module__header--bg-image {
+  background-image: url();
+}
+
+.card-tile--image {
+  background-image: url("https://apps.weber.edu/wsuimages/davidbrogan/images/night-star-filter-overlay-1x.jpg");
+}
+@media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
+  .card-tile--image {
+    background-image: url("https://apps.weber.edu/wsuimages/davidbrogan/images/night-star-filter-overlay-2x.jpg");
+  }
+}
+
 /** featured content local build **/
 /** color-background-box local build **/
 /** text-box local build **/

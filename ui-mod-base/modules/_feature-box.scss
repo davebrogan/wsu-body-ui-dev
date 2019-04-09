@@ -3,6 +3,7 @@
 **/
 .feature-box {
   margin-bottom: 2rem;
+  padding-bottom: 6%;
   background-color: #FFF;
   @include flex-column(stretch, center);
 
@@ -50,6 +51,7 @@
   }
 
   &--no-content {
+	padding-bottom: 0;
 	.feature-box__content, .feature-box__button {
 	  display: none;
 	}
