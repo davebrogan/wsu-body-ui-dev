@@ -556,8 +556,8 @@
 }
 .card-tile__title {
   color: #FFF !important;
-  font-family: "tradegothicltcom-bdcn20";
-  font-size: 32px;
+  font-family: "tradegothicltcom-bdcn20" !important;
+  font-size: 32px !important;
   margin-bottom: 20px;
 }
 .card-tile__link {
@@ -569,82 +569,6 @@
 }
 .card-tile__link:visited {
   color: #fff;
-}
-
-a.tile-link {
-  color: #FFF;
-}
-
-a.tile-link:hover {
-  color: #FFF;
-  font-weight: bold;
-}
-
-.tile {
-  padding: 50px;
-  text-align: center;
-  color: #FFF;
-  min-height: 422px;
-}
-
-.tile h3 {
-  color: #FFF;
-  font-family: "tradegothicltcom-bdcn20";
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-
-.tile img {
-  width: 72px;
-  margin-bottom: 20px;
-}
-
-.tile-academics {
-  background-color: #005f71;
-}
-
-.tile-location {
-  background-image: url("https://apps.weber.edu/wsuimages/presidentialsearch/location_toned_down_1x.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  align-items: center;
-}
-
-.tile-athletics {
-  background-image: url("https://apps.weber.edu/wsuimages/presidentialsearch/athletics2_tile_1x.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  align-items: center;
-}
-
-.tile-arts {
-  background-color: #25CAD3;
-}
-
-.tile-economics {
-  background-color: #F6B221;
-}
-
-.tile-facilities {
-  background-image: url("https://apps.weber.edu/wsuimages/presidentialsearch/facilities_tile_1x.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  align-items: center;
-}
-
-.tile-great {
-  background-image: url("https://apps.weber.edu/wsuimages/presidentialsearch/workplace_tile_1x.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  align-items: center;
-}
-
-.tile-finances {
-  background-color: #483627;
 }
 
 /**

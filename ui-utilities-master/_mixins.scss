@@ -158,6 +158,39 @@
   }
 }
 
+@mixin color-theme($color-map-name) {
+  $color-name: map-get($color-map-name, color-name);
+  $i: 0;
+  $j: 1;
+  $x: 0;
+  $trans: null;
+  $op: null;
+  @while $i < 4 {
+    @for $num from 1 to 5 {
+      $palette-item: wsu-palette($color-map-name, $num, $i + $j);
+      @if $num == 1 {
+        $x: '';
+      } @else {
+        $x: $num;
+      }
+      @if $i < 1 {
+        $trans: '';
+        $op: '';
+      } @else {
+        $trans: '-trans-';
+        $op: $i + $j;
+      }
+      .#{$color-name + $x}--bg#{$trans + $op} {
+        background-color: $palette-item;
+      }
+    }
+    $i: $i + 1;
+    $j: $j + 1;
+  }
+  .#{$color-name}-text {
+    color: wsu-palette($color-map-name, 1);
+  }
+}
 
 
 @mixin theme-maker-block($block-name, $modifier-name) {

@@ -561,7 +561,75 @@ section.inset-purp, .section.inset-purp {
   color: #f6b221;
 }
 
-@inmport "east-theme";
+/** east--bgtheme **/
+.east--bg {
+  background-color: #d25d12;
+}
+
+.east2--bg {
+  background-color: #e8ae88;
+}
+
+.east3--bg {
+  background-color: #f6dfd0;
+}
+
+.east4--bg {
+  background-color: #faeee7;
+}
+
+.east--bg-trans-7 {
+  background-color: rgba(210, 93, 18, 0.7);
+}
+
+.east2--bg-trans-7 {
+  background-color: rgba(232, 174, 136, 0.7);
+}
+
+.east3--bg-trans-7 {
+  background-color: rgba(246, 223, 208, 0.7);
+}
+
+.east4--bg-trans-7 {
+  background-color: rgba(250, 238, 231, 0.7);
+}
+
+.east--bg-trans-5 {
+  background-color: rgba(210, 93, 18, 0.5);
+}
+
+.east2--bg-trans-5 {
+  background-color: rgba(232, 174, 136, 0.5);
+}
+
+.east3--bg-trans-5 {
+  background-color: rgba(246, 223, 208, 0.5);
+}
+
+.east4--bg-trans-5 {
+  background-color: rgba(250, 238, 231, 0.5);
+}
+
+.east--bg-trans-3 {
+  background-color: rgba(210, 93, 18, 0.3);
+}
+
+.east2--bg-trans-3 {
+  background-color: rgba(232, 174, 136, 0.3);
+}
+
+.east3--bg-trans-3 {
+  background-color: rgba(246, 223, 208, 0.3);
+}
+
+.east4--bg-trans-3 {
+  background-color: rgba(250, 238, 231, 0.3);
+}
+
+.east-text {
+  color: #d25d12;
+}
+
 /** godd theme **/
 .godd--bg {
   background-color: #483627;
@@ -974,6 +1042,74 @@ section.inset-purp, .section.inset-purp {
 
 .wcpurp-text {
   color: #492365;
+}
+
+.wsublue--bg {
+  background-color: #346094;
+}
+
+.wsublue2--bg {
+  background-color: #99afc9;
+}
+
+.wsublue3--bg {
+  background-color: #d6dfea;
+}
+
+.wsublue4--bg {
+  background-color: #eaeff4;
+}
+
+.wsublue--bg-trans-3 {
+  background-color: rgba(52, 96, 148, 0.3);
+}
+
+.wsublue2--bg-trans-3 {
+  background-color: rgba(153, 175, 201, 0.3);
+}
+
+.wsublue3--bg-trans-3 {
+  background-color: rgba(214, 223, 234, 0.3);
+}
+
+.wsublue4--bg-trans-3 {
+  background-color: rgba(234, 239, 244, 0.3);
+}
+
+.wsublue--bg-trans-5 {
+  background-color: rgba(52, 96, 148, 0.5);
+}
+
+.wsublue2--bg-trans-5 {
+  background-color: rgba(153, 175, 201, 0.5);
+}
+
+.wsublue3--bg-trans-5 {
+  background-color: rgba(214, 223, 234, 0.5);
+}
+
+.wsublue4--bg-trans-5 {
+  background-color: rgba(234, 239, 244, 0.5);
+}
+
+.wsublue--bg-trans-7 {
+  background-color: rgba(52, 96, 148, 0.7);
+}
+
+.wsublue2--bg-trans-7 {
+  background-color: rgba(153, 175, 201, 0.7);
+}
+
+.wsublue3--bg-trans-7 {
+  background-color: rgba(214, 223, 234, 0.7);
+}
+
+.wsublue4--bg-trans-7 {
+  background-color: rgba(234, 239, 244, 0.7);
+}
+
+.wsublue-text {
+  color: #346094;
 }
 
 /*# sourceMappingURL=ui-global-styles.css.map */
