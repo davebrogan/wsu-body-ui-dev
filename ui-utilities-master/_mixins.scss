@@ -99,7 +99,7 @@
 
 //
 // generates css for feature-box elements * theme colors (palette)
-// allows for theming by adding ".-theme-name"modifier to module root node
+// allows for theming by adding ".-theme-name" modifier to module root node
 //
 @mixin feature-box-themes {
   $self: &;
@@ -119,6 +119,10 @@
   }
 }
 
+//
+// generates css for card-module elements * theme colors (palette)
+// allows for theming by adding ".-theme-name" modifier to module root node
+//
 @mixin card-module-themes {
   $self: &;
   @each $name, $color in $color-names {
@@ -137,6 +141,10 @@
   }
 }
 
+//
+// generates css for card-overlay elements * theme colors (palette)
+// allows for theming by adding ".-theme-name" modifier to module root node
+//
 @mixin card-overlay-themes {
   $self: &;
   @each $name, $color in $color-names {
@@ -158,6 +166,9 @@
   }
 }
 
+//
+// generates color themes from color-map variables
+//
 @mixin color-theme($color-map-name) {
   $color-name: map-get($color-map-name, color-name);
   $i: 0;

@@ -59,6 +59,95 @@
   height: calc(100vw * (1 / 4));
 }
 
+.card-bio {
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+.card-bio__header {
+  padding: 1.5em 0 1.5em 1.5em !important;
+  /*@media only screen and (max-width: 480px) {
+    padding: 1.5em 0 0 0 !important;
+    text-align: center;
+  }
+  @media only screen and (max-width: 370px) {
+    padding: 1em 0 0 0 !important;
+  }
+  @media only screen and (max-width: 340px) {
+    padding: 0 !important;
+  }*/
+}
+@media only screen and (max-width: 640px) {
+  .card-bio__header {
+    padding: 0 !important;
+  }
+}
+.card-bio__title {
+  font-size: 1.5em !important;
+}
+.card-bio__subtitle {
+  font-family: "caecilialtstd-heavy", serif;
+  text-transform: uppercase;
+}
+.card-bio__link {
+  display: block;
+  margin-bottom: 10px;
+}
+.card-bio__content {
+  padding: 1.5em 3% 1em !important;
+}
+
+/*
+span.officer-title {
+  display: block;
+  font-family: 'caecilialtstd-heavy', serif;
+  text-transform: uppercase;
+}
+
+.club-officers {
+  background-color: #FFF;
+  margin-bottom: 30px;
+}
+
+.club-text {
+  padding: 1.5em 3% 1em !important;
+}
+
+.club-text h3 {
+  font-size: 1.5em;
+}
+
+.club-image {
+  padding: 1.5em 0 1.5em 1.5em !important;
+}
+
+@media only screen and (max-width: 640px) {
+  .club-image {
+	padding-bottom: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .club-image {
+	padding: 1.5em 0 0 0 !important;
+	text-align: center;
+  }
+  .club-text {
+	padding: 1.5em 1em 1em !important;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .club-image {
+	padding: 1em 0 0 0 !important;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .club-image {
+	padding: 0 !important;
+  }
+}
+*/
 /**
 *** cards ***
 **/
@@ -905,6 +994,10 @@ color-background-box
   .page-title-space__text {
     font-size: 1.1em;
   }
+}
+
+.responsive-image__picture-element__image {
+  width: 100%;
 }
 
 /**

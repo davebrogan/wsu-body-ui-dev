@@ -1,0 +1,24 @@
+.card-bio {
+  background-color: #fff;
+  margin-bottom: 30px;
+  &__header {
+	padding: 1.5em 0 1.5em 1.5em !important;
+	@media #{$target-large-phone} {
+	  padding: 0 !important;
+  	}
+  }
+  &__title {
+	font-size: 1.5em !important;
+  }
+  &__subtitle {
+	font-family: 'caecilialtstd-heavy', serif;
+	text-transform: uppercase;
+  }
+  &__link {
+	display: block;
+	margin-bottom: 10px;
+  }
+  &__content {
+	padding: 1.5em 3% 1em !important;
+  }
+}
