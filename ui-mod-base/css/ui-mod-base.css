@@ -1,4 +1,27 @@
 /**
+*** icon
+**/
+.icon {
+  color: #FFF;
+  width: 100px;
+}
+.icon-xlarge {
+  width: 150px;
+}
+.icon-large {
+  width: 100px;
+}
+.icon-medium {
+  width: 75px;
+}
+.icon-small {
+  width: 50px;
+}
+.icon-tiny {
+  width: 25px;
+}
+
+/**
 *** banners
 **/
 .banner {
@@ -65,16 +88,6 @@
 }
 .card-bio__header {
   padding: 1.5em 0 1.5em 1.5em !important;
-  /*@media only screen and (max-width: 480px) {
-    padding: 1.5em 0 0 0 !important;
-    text-align: center;
-  }
-  @media only screen and (max-width: 370px) {
-    padding: 1em 0 0 0 !important;
-  }
-  @media only screen and (max-width: 340px) {
-    padding: 0 !important;
-  }*/
 }
 @media only screen and (max-width: 640px) {
   .card-bio__header {
@@ -96,58 +109,6 @@
   padding: 1.5em 3% 1em !important;
 }
 
-/*
-span.officer-title {
-  display: block;
-  font-family: 'caecilialtstd-heavy', serif;
-  text-transform: uppercase;
-}
-
-.club-officers {
-  background-color: #FFF;
-  margin-bottom: 30px;
-}
-
-.club-text {
-  padding: 1.5em 3% 1em !important;
-}
-
-.club-text h3 {
-  font-size: 1.5em;
-}
-
-.club-image {
-  padding: 1.5em 0 1.5em 1.5em !important;
-}
-
-@media only screen and (max-width: 640px) {
-  .club-image {
-	padding-bottom: 0 !important;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .club-image {
-	padding: 1.5em 0 0 0 !important;
-	text-align: center;
-  }
-  .club-text {
-	padding: 1.5em 1em 1em !important;
-  }
-}
-
-@media only screen and (max-width: 370px) {
-  .club-image {
-	padding: 1em 0 0 0 !important;
-  }
-}
-
-@media only screen and (max-width: 340px) {
-  .club-image {
-	padding: 0 !important;
-  }
-}
-*/
 /**
 *** cards ***
 **/
@@ -624,6 +585,212 @@ span.officer-title {
   background-color: #cccccc;
 }
 
+.card-resource {
+  position: relative;
+  max-width: 620px;
+  margin: 0 auto 40px;
+  height: auto;
+  background-color: #FFF;
+}
+.card-resource__header {
+  width: 30%;
+  display: inline-block;
+  padding: 30px;
+}
+.card-resource__header__icon {
+  width: auto;
+}
+.card-resource__content {
+  width: 66%;
+  float: right;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.card-resource__button {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  right: 33%;
+  transform: translateX(50%);
+}
+
+@media only screen and (max-width: 600px) {
+  .card-resource {
+    width: 100%;
+    margin: 0 auto 40px;
+    min-height: 421px;
+  }
+  .card-resource__header {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .card-resource__header__icon {
+    max-width: 110px;
+  }
+  .card-resource__content {
+    width: 100%;
+    float: none;
+  }
+  .card-resource__button {
+    right: 50%;
+  }
+}
+.card-resource.-cos-theme .card-resource__header {
+  background-color: #f6b221;
+}
+.card-resource.-cos-theme .card-resource__button {
+  background-color: #f6b221;
+}
+.card-resource.-cos-theme .card-resource__button:hover {
+  background-color: #f8c352;
+}
+.card-resource.-csbs-theme .card-resource__header {
+  background-color: #005f71;
+}
+.card-resource.-csbs-theme .card-resource__button {
+  background-color: #005f71;
+}
+.card-resource.-csbs-theme .card-resource__button:hover {
+  background-color: #008aa4;
+}
+.card-resource.-dumke-theme .card-resource__header {
+  background-color: #099844;
+}
+.card-resource.-dumke-theme .card-resource__button {
+  background-color: #099844;
+}
+.card-resource.-dumke-theme .card-resource__button:hover {
+  background-color: #0cc85a;
+}
+.card-resource.-east-theme .card-resource__header {
+  background-color: #d25d12;
+}
+.card-resource.-east-theme .card-resource__button {
+  background-color: #d25d12;
+}
+.card-resource.-east-theme .card-resource__button:hover {
+  background-color: #ed762a;
+}
+.card-resource.-godd-theme .card-resource__header {
+  background-color: #483627;
+}
+.card-resource.-godd-theme .card-resource__button {
+  background-color: #483627;
+}
+.card-resource.-godd-theme .card-resource__button:hover {
+  background-color: #694f39;
+}
+.card-resource.-hlcolor-theme .card-resource__header {
+  background-color: #8446ac;
+}
+.card-resource.-hlcolor-theme .card-resource__button {
+  background-color: #8446ac;
+}
+.card-resource.-hlcolor-theme .card-resource__button:hover {
+  background-color: #9c65c0;
+}
+.card-resource.-lind-theme .card-resource__header {
+  background-color: #25cad3;
+}
+.card-resource.-lind-theme .card-resource__button {
+  background-color: #25cad3;
+}
+.card-resource.-lind-theme .card-resource__button:hover {
+  background-color: #4bd8e0;
+}
+.card-resource.-mauve-theme .card-resource__header {
+  background-color: #691940;
+}
+.card-resource.-mauve-theme .card-resource__button {
+  background-color: #691940;
+}
+.card-resource.-mauve-theme .card-resource__button:hover {
+  background-color: #922359;
+}
+.card-resource.-moyes-theme .card-resource__header {
+  background-color: #a3d55d;
+}
+.card-resource.-moyes-theme .card-resource__button {
+  background-color: #a3d55d;
+}
+.card-resource.-moyes-theme .card-resource__button:hover {
+  background-color: #bae086;
+}
+.card-resource.-unigray-theme .card-resource__header {
+  background-color: #575047;
+}
+.card-resource.-unigray-theme .card-resource__button {
+  background-color: #575047;
+}
+.card-resource.-unigray-theme .card-resource__button:hover {
+  background-color: #736a5e;
+}
+.card-resource.-wcpurp-theme .card-resource__header {
+  background-color: #492365;
+}
+.card-resource.-wcpurp-theme .card-resource__button {
+  background-color: #492365;
+}
+.card-resource.-wcpurp-theme .card-resource__button:hover {
+  background-color: #64308b;
+}
+.card-resource.-wsumauve-theme .card-resource__header {
+  background-color: #691940;
+}
+.card-resource.-wsumauve-theme .card-resource__button {
+  background-color: #691940;
+}
+.card-resource.-wsumauve-theme .card-resource__button:hover {
+  background-color: #922359;
+}
+.card-resource.-wsubrown-theme .card-resource__header {
+  background-color: #84471e;
+}
+.card-resource.-wsubrown-theme .card-resource__button {
+  background-color: #84471e;
+}
+.card-resource.-wsubrown-theme .card-resource__button:hover {
+  background-color: #ae5d27;
+}
+.card-resource.-wsured-theme .card-resource__header {
+  background-color: #a52428;
+}
+.card-resource.-wsured-theme .card-resource__button {
+  background-color: #a52428;
+}
+.card-resource.-wsured-theme .card-resource__button:hover {
+  background-color: #cf2d32;
+}
+.card-resource.-wsublue-theme .card-resource__header {
+  background-color: #346094;
+}
+.card-resource.-wsublue-theme .card-resource__button {
+  background-color: #346094;
+}
+.card-resource.-wsublue-theme .card-resource__button:hover {
+  background-color: #4178ba;
+}
+.card-resource.-wsugreen-theme .card-resource__header {
+  background-color: #005c49;
+}
+.card-resource.-wsugreen-theme .card-resource__button {
+  background-color: #005c49;
+}
+.card-resource.-wsugreen-theme .card-resource__button:hover {
+  background-color: #008f71;
+}
+.card-resource.-wsuwhite-theme .card-resource__header {
+  background-color: white;
+}
+.card-resource.-wsuwhite-theme .card-resource__button {
+  background-color: white;
+}
+.card-resource.-wsuwhite-theme .card-resource__button:hover {
+  background-color: white;
+}
+
 /**
 *** card-tiles
 **/
@@ -998,29 +1165,6 @@ color-background-box
 
 .responsive-image__picture-element__image {
   width: 100%;
-}
-
-/**
-*** icon
-**/
-.icon {
-  color: #FFF;
-  width: 100px;
-}
-.icon-xlarge {
-  width: 150px;
-}
-.icon-large {
-  width: 100px;
-}
-.icon-medium {
-  width: 75px;
-}
-.icon-small {
-  width: 50px;
-}
-.icon-tiny {
-  width: 25px;
 }
 
 /**

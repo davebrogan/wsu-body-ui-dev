@@ -3,6 +3,7 @@
 @import '../ui-utilities-master/mixins';
 @import '../ui-utilities-master/placeholders';
 
+@import 'modules/icon';
 @import 'modules/banners';
 @import 'modules/card-bio';
 @import 'modules/card-module';
@@ -16,7 +17,7 @@
 @import 'modules/feature-box';
 @import 'modules/page-title-space';
 @import 'modules/responsive-image';
-@import 'modules/icon';
+
 
 @import '../ui-modifiers-global/alignment-modifiers';
 @import '../ui-modifiers-global/shadow-modifiers';
