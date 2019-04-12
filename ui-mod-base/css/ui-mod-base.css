@@ -82,6 +82,199 @@
   height: calc(100vw * (1 / 4));
 }
 
+.card-advisor {
+  margin-bottom: 2rem;
+  padding-bottom: 6%;
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+.card-advisor__title {
+  background-color: #492365;
+  padding: 10px;
+  color: #fafafa !important;
+  margin: 0;
+  font-size: 1.5em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+}
+.card-advisor__content {
+  padding: 1.5em;
+}
+.card-advisor__button {
+  background-color: #492365;
+  align-self: center;
+}
+.card-advisor.-shadow {
+  box-shadow: 0 0 10px 2px #ccc;
+}
+@media screen and (min-resolution: 192dpi) {
+  .card-advisor.-shadow {
+    box-shadow: 0 0 10px 2px #eee;
+  }
+}
+.card-advisor--no-header .card-advisor__header-image {
+  display: none;
+}
+
+.card-advisor.-cos-theme .card-advisor__title {
+  background-color: #f6b221;
+}
+.card-advisor.-cos-theme .card-advisor__button {
+  background-color: #f6b221;
+}
+.card-advisor.-cos-theme .card-advisor__button:hover {
+  background-color: #f8c352;
+}
+.card-advisor.-csbs-theme .card-advisor__title {
+  background-color: #005f71;
+}
+.card-advisor.-csbs-theme .card-advisor__button {
+  background-color: #005f71;
+}
+.card-advisor.-csbs-theme .card-advisor__button:hover {
+  background-color: #008aa4;
+}
+.card-advisor.-dumke-theme .card-advisor__title {
+  background-color: #099844;
+}
+.card-advisor.-dumke-theme .card-advisor__button {
+  background-color: #099844;
+}
+.card-advisor.-dumke-theme .card-advisor__button:hover {
+  background-color: #0cc85a;
+}
+.card-advisor.-east-theme .card-advisor__title {
+  background-color: #d25d12;
+}
+.card-advisor.-east-theme .card-advisor__button {
+  background-color: #d25d12;
+}
+.card-advisor.-east-theme .card-advisor__button:hover {
+  background-color: #ed762a;
+}
+.card-advisor.-godd-theme .card-advisor__title {
+  background-color: #483627;
+}
+.card-advisor.-godd-theme .card-advisor__button {
+  background-color: #483627;
+}
+.card-advisor.-godd-theme .card-advisor__button:hover {
+  background-color: #694f39;
+}
+.card-advisor.-hlcolor-theme .card-advisor__title {
+  background-color: #8446ac;
+}
+.card-advisor.-hlcolor-theme .card-advisor__button {
+  background-color: #8446ac;
+}
+.card-advisor.-hlcolor-theme .card-advisor__button:hover {
+  background-color: #9c65c0;
+}
+.card-advisor.-lind-theme .card-advisor__title {
+  background-color: #25cad3;
+}
+.card-advisor.-lind-theme .card-advisor__button {
+  background-color: #25cad3;
+}
+.card-advisor.-lind-theme .card-advisor__button:hover {
+  background-color: #4bd8e0;
+}
+.card-advisor.-mauve-theme .card-advisor__title {
+  background-color: #691940;
+}
+.card-advisor.-mauve-theme .card-advisor__button {
+  background-color: #691940;
+}
+.card-advisor.-mauve-theme .card-advisor__button:hover {
+  background-color: #922359;
+}
+.card-advisor.-moyes-theme .card-advisor__title {
+  background-color: #a3d55d;
+}
+.card-advisor.-moyes-theme .card-advisor__button {
+  background-color: #a3d55d;
+}
+.card-advisor.-moyes-theme .card-advisor__button:hover {
+  background-color: #bae086;
+}
+.card-advisor.-unigray-theme .card-advisor__title {
+  background-color: #575047;
+}
+.card-advisor.-unigray-theme .card-advisor__button {
+  background-color: #575047;
+}
+.card-advisor.-unigray-theme .card-advisor__button:hover {
+  background-color: #736a5e;
+}
+.card-advisor.-wcpurp-theme .card-advisor__title {
+  background-color: #492365;
+}
+.card-advisor.-wcpurp-theme .card-advisor__button {
+  background-color: #492365;
+}
+.card-advisor.-wcpurp-theme .card-advisor__button:hover {
+  background-color: #64308b;
+}
+.card-advisor.-wsumauve-theme .card-advisor__title {
+  background-color: #691940;
+}
+.card-advisor.-wsumauve-theme .card-advisor__button {
+  background-color: #691940;
+}
+.card-advisor.-wsumauve-theme .card-advisor__button:hover {
+  background-color: #922359;
+}
+.card-advisor.-wsubrown-theme .card-advisor__title {
+  background-color: #84471e;
+}
+.card-advisor.-wsubrown-theme .card-advisor__button {
+  background-color: #84471e;
+}
+.card-advisor.-wsubrown-theme .card-advisor__button:hover {
+  background-color: #ae5d27;
+}
+.card-advisor.-wsured-theme .card-advisor__title {
+  background-color: #a52428;
+}
+.card-advisor.-wsured-theme .card-advisor__button {
+  background-color: #a52428;
+}
+.card-advisor.-wsured-theme .card-advisor__button:hover {
+  background-color: #cf2d32;
+}
+.card-advisor.-wsublue-theme .card-advisor__title {
+  background-color: #346094;
+}
+.card-advisor.-wsublue-theme .card-advisor__button {
+  background-color: #346094;
+}
+.card-advisor.-wsublue-theme .card-advisor__button:hover {
+  background-color: #4178ba;
+}
+.card-advisor.-wsugreen-theme .card-advisor__title {
+  background-color: #005c49;
+}
+.card-advisor.-wsugreen-theme .card-advisor__button {
+  background-color: #005c49;
+}
+.card-advisor.-wsugreen-theme .card-advisor__button:hover {
+  background-color: #008f71;
+}
+.card-advisor.-wsuwhite-theme .card-advisor__title {
+  background-color: white;
+}
+.card-advisor.-wsuwhite-theme .card-advisor__button {
+  background-color: white;
+}
+.card-advisor.-wsuwhite-theme .card-advisor__button:hover {
+  background-color: white;
+}
+
 .card-bio {
   background-color: #fff;
   margin-bottom: 30px;
@@ -583,6 +776,187 @@
 }
 .card-overlay.-wsuwhite-theme .card-overlay__button:hover {
   background-color: #cccccc;
+}
+
+.card-personnel {
+  margin-bottom: 2rem;
+  padding-bottom: 6%;
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+.card-personnel__title {
+  background-color: #492365;
+  padding: 10px;
+  color: #fafafa !important;
+  margin: 0;
+  font-size: 1.5em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+}
+.card-personnel__content {
+  padding: 1.5em;
+}
+.card-personnel--no-header .feature-box__header-image {
+  display: none;
+}
+
+.card-personnel.-cos-theme .card-personnel__title {
+  background-color: #f6b221;
+}
+.card-personnel.-cos-theme .card-personnel__button {
+  background-color: #f6b221;
+}
+.card-personnel.-cos-theme .card-personnel__button:hover {
+  background-color: #f8c352;
+}
+.card-personnel.-csbs-theme .card-personnel__title {
+  background-color: #005f71;
+}
+.card-personnel.-csbs-theme .card-personnel__button {
+  background-color: #005f71;
+}
+.card-personnel.-csbs-theme .card-personnel__button:hover {
+  background-color: #008aa4;
+}
+.card-personnel.-dumke-theme .card-personnel__title {
+  background-color: #099844;
+}
+.card-personnel.-dumke-theme .card-personnel__button {
+  background-color: #099844;
+}
+.card-personnel.-dumke-theme .card-personnel__button:hover {
+  background-color: #0cc85a;
+}
+.card-personnel.-east-theme .card-personnel__title {
+  background-color: #d25d12;
+}
+.card-personnel.-east-theme .card-personnel__button {
+  background-color: #d25d12;
+}
+.card-personnel.-east-theme .card-personnel__button:hover {
+  background-color: #ed762a;
+}
+.card-personnel.-godd-theme .card-personnel__title {
+  background-color: #483627;
+}
+.card-personnel.-godd-theme .card-personnel__button {
+  background-color: #483627;
+}
+.card-personnel.-godd-theme .card-personnel__button:hover {
+  background-color: #694f39;
+}
+.card-personnel.-hlcolor-theme .card-personnel__title {
+  background-color: #8446ac;
+}
+.card-personnel.-hlcolor-theme .card-personnel__button {
+  background-color: #8446ac;
+}
+.card-personnel.-hlcolor-theme .card-personnel__button:hover {
+  background-color: #9c65c0;
+}
+.card-personnel.-lind-theme .card-personnel__title {
+  background-color: #25cad3;
+}
+.card-personnel.-lind-theme .card-personnel__button {
+  background-color: #25cad3;
+}
+.card-personnel.-lind-theme .card-personnel__button:hover {
+  background-color: #4bd8e0;
+}
+.card-personnel.-mauve-theme .card-personnel__title {
+  background-color: #691940;
+}
+.card-personnel.-mauve-theme .card-personnel__button {
+  background-color: #691940;
+}
+.card-personnel.-mauve-theme .card-personnel__button:hover {
+  background-color: #922359;
+}
+.card-personnel.-moyes-theme .card-personnel__title {
+  background-color: #a3d55d;
+}
+.card-personnel.-moyes-theme .card-personnel__button {
+  background-color: #a3d55d;
+}
+.card-personnel.-moyes-theme .card-personnel__button:hover {
+  background-color: #bae086;
+}
+.card-personnel.-unigray-theme .card-personnel__title {
+  background-color: #575047;
+}
+.card-personnel.-unigray-theme .card-personnel__button {
+  background-color: #575047;
+}
+.card-personnel.-unigray-theme .card-personnel__button:hover {
+  background-color: #736a5e;
+}
+.card-personnel.-wcpurp-theme .card-personnel__title {
+  background-color: #492365;
+}
+.card-personnel.-wcpurp-theme .card-personnel__button {
+  background-color: #492365;
+}
+.card-personnel.-wcpurp-theme .card-personnel__button:hover {
+  background-color: #64308b;
+}
+.card-personnel.-wsumauve-theme .card-personnel__title {
+  background-color: #691940;
+}
+.card-personnel.-wsumauve-theme .card-personnel__button {
+  background-color: #691940;
+}
+.card-personnel.-wsumauve-theme .card-personnel__button:hover {
+  background-color: #922359;
+}
+.card-personnel.-wsubrown-theme .card-personnel__title {
+  background-color: #84471e;
+}
+.card-personnel.-wsubrown-theme .card-personnel__button {
+  background-color: #84471e;
+}
+.card-personnel.-wsubrown-theme .card-personnel__button:hover {
+  background-color: #ae5d27;
+}
+.card-personnel.-wsured-theme .card-personnel__title {
+  background-color: #a52428;
+}
+.card-personnel.-wsured-theme .card-personnel__button {
+  background-color: #a52428;
+}
+.card-personnel.-wsured-theme .card-personnel__button:hover {
+  background-color: #cf2d32;
+}
+.card-personnel.-wsublue-theme .card-personnel__title {
+  background-color: #346094;
+}
+.card-personnel.-wsublue-theme .card-personnel__button {
+  background-color: #346094;
+}
+.card-personnel.-wsublue-theme .card-personnel__button:hover {
+  background-color: #4178ba;
+}
+.card-personnel.-wsugreen-theme .card-personnel__title {
+  background-color: #005c49;
+}
+.card-personnel.-wsugreen-theme .card-personnel__button {
+  background-color: #005c49;
+}
+.card-personnel.-wsugreen-theme .card-personnel__button:hover {
+  background-color: #008f71;
+}
+.card-personnel.-wsuwhite-theme .card-personnel__title {
+  background-color: white;
+}
+.card-personnel.-wsuwhite-theme .card-personnel__button {
+  background-color: white;
+}
+.card-personnel.-wsuwhite-theme .card-personnel__button:hover {
+  background-color: white;
 }
 
 .card-resource {

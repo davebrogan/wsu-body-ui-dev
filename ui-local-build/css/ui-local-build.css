@@ -15,7 +15,7 @@
 *** button css is located in ui-global-styles
 ***/
 .card-module__header--bg-image {
-  background-image: url();
+  background-image: url("https://path-to-asset");
 }
 
 .card-tile--image {
