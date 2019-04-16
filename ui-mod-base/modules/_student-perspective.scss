@@ -1,0 +1,15 @@
+.student-perspective {
+  padding: 25px 0;
+  &__head-shot {
+	display: flex;
+	justify-content: center;
+	@media #{$target-phone} {
+	  margin-bottom: 20px;
+	}
+  }
+  &__content {
+	@media #{$target-phone} {
+	  text-align: center;
+	}
+  }
+}

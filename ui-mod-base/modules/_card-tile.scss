@@ -4,10 +4,10 @@
 .card-tile {
   padding: 50px;
   text-align: center;
-  color: #FFF;
+  color: $white-text;
   min-height: 422px;
-  @include bg-img-placement(center center);
-  @include flex-column(center, center);
+  @include bg-img-placement(center, center);
+  @include flex-column(center, start);
   &--solid {
 	//add color theme bg class
   }
@@ -18,19 +18,21 @@
 	margin-bottom: 20px;
   }
   &__title {
-	color: #FFF !important;
-	font-family: 'tradegothicltcom-bdcn20' !important;
-	font-size: 32px !important;
-	margin-bottom: 20px;
+	&.title-override {
+	  color: $white-text;
+	  font-family: 'tradegothicltcom-bdcn20';
+	  font-size: $title-large;
+	  margin-bottom: 20px;
+	}
   }
   &__link {
-	color: #fff;
+	color: $white-text;
 	&:hover {
-	  color: #fff;
+	  color: $white-text;
 	  font-weight: bold;
 	}
 	&:visited {
-	  color: #fff;
+	  color: $white-text;
 	}
   }
 }

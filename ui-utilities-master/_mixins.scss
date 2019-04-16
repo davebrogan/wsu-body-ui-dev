@@ -50,6 +50,16 @@
 }
 
 //
+// converts responsive-image block from square to circle
+//
+@mixin circle-image ($width, $border-radius) {
+  width: $width;
+  height: $width;
+  border-radius: $border-radius;
+  shape-outside: margin-box;
+}
+
+//
 // calculates a consistent width to height ratio
 // based either on an aspect ratio (ex.: 16:9)
 // or the pixel dimensions of the original image
@@ -114,6 +124,23 @@
         &:hover {
           background-color: lighten($theme-color, 10%);
         }
+      }
+    }
+  }
+}
+
+//
+// generates css for nav-onpage-icon theme colors
+// allows for theming by adding ".theme-name" modifier to module root node
+//
+@mixin nav-onpage-themes{
+  $self: &;
+  @each $name, $color in $color-names {
+    &.-#{$name}-theme {
+      $theme-color: wsu-palette($color, 1);
+      background-color: $theme-color;
+      &:hover {
+        background-color: lighten($theme-color, 10%);
       }
     }
   }

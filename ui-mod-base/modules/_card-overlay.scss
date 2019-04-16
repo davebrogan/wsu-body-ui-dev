@@ -13,7 +13,7 @@
   &__content {
 	@include flex-column(center, center);
 	//padding: 8% 6% 6%;
-	color: #fff;
+	color: $white-text;
 	max-width: 340px;
 	margin: 0 auto 20px;
 	font-family: tradegothiclt, sans-serif;
@@ -21,11 +21,13 @@
 	text-align: center;
   }
   &__title {
-	font-size: 1.5em !important;
-	margin-bottom: 16px;
-	color: #fff !important;
+	&.title-override {
+	  font-size: $title-large;
+	  margin-bottom: 16px;
+	  color: #fff;
+	}
 	&--underlined {
-	  border-bottom: 1px solid #fff;
+	  border-bottom: 1px solid $white-text;
 	  padding-bottom: 10px;
 	  width: 100%;
 	}

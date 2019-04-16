@@ -4,6 +4,7 @@
 //
 // a content box used as an overlay on a image or color background
 //
+
 .featured-content {
   max-width: 850px;
   @include flex-column(center, center);
@@ -11,34 +12,37 @@
   padding: 5em 1em;
 
   &__title {
-    color: $white-title-override;
-    font-family: $font-tgbe !important;
-    //margin: 0 0 .5em 0; can't override wsu-main-styles
-    font-size: 50px !important;
-    @media #{$target-tablet-range} {
-      font-size: 5vmin !important;
-    }
-    @media #{$target-phone} {
-      font-size: 50px !important;
+    &.title-override {
+      color: $white-text;
+      font-family: $font-tgbe;
+      font-size: 50px;
+      @media #{$target-tablet-range} {
+        font-size: 5vmin;
+      }
+      @media #{$target-phone} {
+        font-size: 50px;
+      }
     }
   }
 
   &__subtitle {
-    color: $white-title-override;
-    font-size: 2em !important;
-    margin: 0 0 1em 0 !important;
-    @media #{$target-phone} {
-      font-size: 1.5em !important;
+    &.title-override {
+      color: $white-text;
+      font-size: 2em;
+      margin: 0 0 1em 0 !important;
+      @media #{$target-phone} {
+        font-size: 1.5em;
+      }
     }
   }
 
   &__copy {
-    color: #FFF !important;
+    color: $white-text !important;
   }
 
   &--gray {
     &__title, &__subtitle, &__copy {
-      color: #575047;
+      color: $gray-text;
     }
   }
 }

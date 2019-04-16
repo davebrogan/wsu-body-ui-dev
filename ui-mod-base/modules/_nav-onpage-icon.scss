@@ -1,0 +1,33 @@
+/**
+*** On page Icon nav
+ **/
+.nav-onpage-icon {
+  background-color: wsu-palette($wcpurp-colors, 1);
+  padding: 30px;
+  font-family: tradegothicltcom-bdcn20, sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+  line-height: 1.3em;
+  transition: 0.4s;
+  &:hover {
+    background-color: lighten(wsu-palette($wcpurp-colors, 1), 10%);
+    cursor: pointer;
+  }
+  &__icon {
+    margin-bottom: 20px;
+    max-width: 100px;
+  }
+}
+
+a.nav-onpage-icon__link {
+  color: #FFF;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.nav-onpage-icon {
+  @include nav-onpage-themes();
+}
+

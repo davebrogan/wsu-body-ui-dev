@@ -13,13 +13,12 @@
     margin-top: 0;
   }
 }
-/*remove dropdown nav box shadow*/
-.page-title {
-  color: #492365 !important;
-  font-family: "tradegothicltstd-boldext", sans-serif !important;
+.page-title.title-override {
+  color: #492365;
+  font-family: "tradegothicltstd-boldext", sans-serif;
   margin: 1em;
   text-align: center;
-  font-size: 2rem !important;
+  font-size: 2rem;
 }
 
 .showcase-html-section {
@@ -267,7 +266,7 @@
 
 .tgb-text {
   font-family: "tradegothiclt-bold", sans-serif;
-  font-size: 1.25em;
+  font-size: 1.2em;
 }
 
 /*section padding*/

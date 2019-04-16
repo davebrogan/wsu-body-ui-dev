@@ -304,7 +304,12 @@ $color-names: (
 $gray-text: #575047;
 $white-text: #FFF;
 $white-title-override: #FFF !important;
+$off-white-text: #fafafa;
 
+$shadow-lo-res: 0 0 10px 2px #ccc;
+$shadow-hi-res: 0 0 10px 2px #eee;
+
+$light-gray-bg: #f3f3f3;
 
 //
 // fonts
@@ -331,6 +336,15 @@ $font-pmnb: 'caecilialtstd-bold', serif;
 $font-pmnbi: 'caecilialtstd-bolditalic', serif;
 $font-pmnh: 'caecilialtstd-heavy', serif;
 $font-pmnhi: 'caecilialtstd-heavyitalic', serif;
+
+
+//
+// title overrides
+// (used with .title-override class on __title element
+//
+$title-small: 1.2em;
+$title-medium: 1.3em;
+$title-large: 1.5em;
 
 
 //

@@ -3,22 +3,28 @@
 **/
 .text-box {
   //padding: 4em;
-  &.-white {
+  &.-white, &--white {
 	.text-box__title {
-	  color: #FFF;
+	  color: $white-text;
 	  margin-bottom: 20px !important;
+	  &--underline {
+		border-bottom: 1px solid $white-text;
+	  }
 	}
 	.text-box__text {
-	  color: #FFF;
+	  color: $white-text;
 	}
   }
-  &.-gray {
+  &.-gray, &--gray {
 	.text-box__title {
-	  color: #575047;
+	  color: $gray-text;
 	  margin-bottom: 20px !important;
+	  &--underline {
+		border-bottom: 1px solid $gray-text;
+	  }
 	}
 	.text-box__text {
-	  color: #575047;
+	  color: $gray-text;
 	}
   }
 }

@@ -5,16 +5,18 @@
   @include flex-column(stretch, center);
 
   &__title {
-	// use theme class on block to change color
-	background-color: #492365;
-	padding: 10px;
-	color: #fafafa !important;
-	margin: 0;
-	font-size: 1.5em;
-	white-space: nowrap;
-	text-overflow: ellipsis;
-	overflow: hidden;
-	width: 100%;
+	&.title-override {
+	  // use theme class on block to change color
+	  background-color: wsu-palette($wcpurp-colors, 1);
+	  padding: 10px;
+	  color: $off-white-text;
+	  margin: 0;
+	  font-size: $title-medium;
+	  white-space: nowrap;
+	  text-overflow: ellipsis;
+	  overflow: hidden;
+	  width: 100%;
+	}
   }
 
   &__content {
@@ -23,14 +25,14 @@
 
   &__button {
 	// use theme class on block to change color
-	background-color: #492365;
+	background-color: wsu-palette($wcpurp-colors, 1);
 	align-self: center;
   }
 
   &.-shadow {
-	box-shadow: 0 0 10px 2px #ccc;
+	box-shadow: $shadow-lo-res;
 	@media screen and (min-resolution: 192dpi) {
-	  box-shadow: 0 0 10px 2px #eee;
+	  box-shadow: $shadow-hi-res;
 	}
   }
 

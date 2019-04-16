@@ -2,13 +2,15 @@
   background-color: #fff;
   margin-bottom: 30px;
   &__header {
-	padding: 1.5em 0 1.5em 1.5em !important;
+	padding: 1.5em 0 1.5em 1.5em !important; //overwrites foundation
 	@media #{$target-large-phone} {
 	  padding: 0 !important;
   	}
   }
   &__title {
-	font-size: 1.5em !important;
+	&.title-override {
+	  font-size: $title-medium;
+	}
   }
   &__subtitle {
 	font-family: 'caecilialtstd-heavy', serif;
@@ -19,6 +21,6 @@
 	margin-bottom: 10px;
   }
   &__content {
-	padding: 1.5em 3% 1em !important;
+	padding: 1.5em 3% 1em !important; //overwrites foundation
   }
 }
