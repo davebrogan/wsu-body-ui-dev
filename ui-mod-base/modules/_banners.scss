@@ -23,6 +23,10 @@
   }
   &--aspect-2-1, &--tall {
     height: $aspect-2-1;
+    min-height: 350px;
+    @media #{$target-large-phone} {
+      height: auto;
+    }
   }
   &--aspect-3-2 {
     height: $aspect-3-2;
