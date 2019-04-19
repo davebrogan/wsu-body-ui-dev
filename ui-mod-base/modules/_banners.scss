@@ -30,17 +30,37 @@
   }
   &--aspect-3-2 {
     height: $aspect-3-2;
+    min-height: 350px;
+    @media #{$target-large-phone} {
+      height: auto;
+    }
   }
   &--aspect-4-3, &--xxtall {
     height: $aspect-4-3;
+    min-height: 350px;
+    @media #{$target-large-phone} {
+      height: auto;
+    }
   }
   &--aspect-16-9, &--xtall {
     height: $aspect-16-9;
+    min-height: 350px;
+    @media #{$target-large-phone} {
+      height: auto;
+    }
   }
   &--aspect-21-9, &--medium {
     height: $aspect-21-9;
+    min-height: 350px;
+    @media #{$target-large-phone} {
+      height: auto;
+    }
   }
   &--aspect-4-1, &--short {
     height: $aspect-4-1;
+    min-height: 350px;
+    @media #{$target-large-phone} {
+      height: auto;
+    }
   }
 }
