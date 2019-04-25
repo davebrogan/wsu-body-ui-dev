@@ -103,3 +103,15 @@
   background: #483627; }
 .button.color-18:hover {
   background: #694f39; }
+
+/*clear*/
+.button.button--clear {
+  border: 1px solid #fff;
+  background: transparent;
+}
+
+/*button div text*/
+.button.button-block a {
+  text-decoration: none;
+  color: #fff;
+}

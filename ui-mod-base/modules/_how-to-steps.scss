@@ -1,0 +1,18 @@
+.how-to {
+  &--basic {
+	&__section {
+	  padding: 2em;
+	}
+	&__title {
+	  &.title-override {
+		color: #fff;
+		margin-left: 16.66667% !important;
+		padding-left: .9375rem !important;
+	  }
+	}
+  }
+}
+
+.how-to--basic {
+  @include how-to--basic-themes();
+}

@@ -230,6 +230,41 @@
   }
 }
 
+//
+// generates css for how-to--basic block, elements * theme colors (palette)
+// allows for theming by adding ".-#{&color-name}-theme" modifier to module root node
+//
+@mixin how-to--basic-themes {
+  $self: &;
+  @each $name, $color in $color-names {
+    $theme-color: wsu-palette($color, 1);
+    $theme-color-light: wsu-palette($color, 3);
+    &.-#{$name}-theme {
+      #{$self}__section:nth-child(even) {
+        background-color: $light-gray-bg;
+        & .how-to__button {
+          background-color: $theme-color;
+          &:hover {
+            background-color: lighten($theme-color, 10%);
+          }
+        }
+      }
+      #{$self}__section:nth-child(odd) {
+        background-color: $theme-color;
+        & .how-to__button {
+          background-color: wsu-palette($color, 3);
+          color: $gray-text;
+          &:hover {
+            background-color: darken($theme-color-light, 10%);
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
 
 @mixin theme-maker-block($block-name, $modifier-name) {
   &__#{$block-name} {
