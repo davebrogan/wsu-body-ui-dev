@@ -251,9 +251,9 @@
       }
       #{$self}__section:nth-child(odd) {
         background-color: $theme-color;
-        & .how-to__button {
+        & .how-to__button.button{
           background-color: wsu-palette($color, 3);
-          color: $gray-text;
+          color: $gray-text !important;
           &:hover {
             background-color: darken($theme-color-light, 10%);
           }

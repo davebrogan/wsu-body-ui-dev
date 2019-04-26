@@ -121,6 +121,9 @@
 .how-to--basic__section {
   padding: 2em;
 }
+.how-to--basic__icon {
+  margin-bottom: 20px;
+}
 .how-to--basic__title.title-override {
   color: #fff;
   margin-left: 16.66667% !important;
@@ -139,11 +142,11 @@
 .how-to--basic.-cos-theme .how-to--basic__section:nth-child(odd) {
   background-color: #f6b221;
 }
-.how-to--basic.-cos-theme .how-to--basic__section:nth-child(odd) .how-to__button {
+.how-to--basic.-cos-theme .how-to--basic__section:nth-child(odd) .how-to__button.button {
   background-color: #fdf0d3;
-  color: #575047;
+  color: #575047 !important;
 }
-.how-to--basic.-cos-theme .how-to--basic__section:nth-child(odd) .how-to__button:hover {
+.how-to--basic.-cos-theme .how-to--basic__section:nth-child(odd) .how-to__button.button:hover {
   background-color: #fbdfa2;
 }
 .how-to--basic.-csbs-theme .how-to--basic__section:nth-child(even) {
@@ -158,11 +161,11 @@
 .how-to--basic.-csbs-theme .how-to--basic__section:nth-child(odd) {
   background-color: #005f71;
 }
-.how-to--basic.-csbs-theme .how-to--basic__section:nth-child(odd) .how-to__button {
+.how-to--basic.-csbs-theme .how-to--basic__section:nth-child(odd) .how-to__button.button {
   background-color: #ccdfe3;
-  color: #575047;
+  color: #575047 !important;
 }
-.how-to--basic.-csbs-theme .how-to--basic__section:nth-child(odd) .how-to__button:hover {
+.how-to--basic.-csbs-theme .how-to--basic__section:nth-child(odd) .how-to__button.button:hover {
   background-color: #abcad1;
 }
 .how-to--basic.-dumke-theme .how-to--basic__section:nth-child(even) {
@@ -177,11 +180,11 @@
 .how-to--basic.-dumke-theme .how-to--basic__section:nth-child(odd) {
   background-color: #099844;
 }
-.how-to--basic.-dumke-theme .how-to--basic__section:nth-child(odd) .how-to__button {
+.how-to--basic.-dumke-theme .how-to--basic__section:nth-child(odd) .how-to__button.button {
   background-color: #cceada;
-  color: #575047;
+  color: #575047 !important;
 }
-.how-to--basic.-dumke-theme .how-to--basic__section:nth-child(odd) .how-to__button:hover {
+.how-to--basic.-dumke-theme .how-to--basic__section:nth-child(odd) .how-to__button.button:hover {
   background-color: #a8dbc0;
 }
 .how-to--basic.-east-theme .how-to--basic__section:nth-child(even) {
@@ -196,11 +199,11 @@
 .how-to--basic.-east-theme .how-to--basic__section:nth-child(odd) {
   background-color: #d25d12;
 }
-.how-to--basic.-east-theme .how-to--basic__section:nth-child(odd) .how-to__button {
+.how-to--basic.-east-theme .how-to--basic__section:nth-child(odd) .how-to__button.button {
   background-color: #f6dfd0;
-  color: #575047;
+  color: #575047 !important;
 }
-.how-to--basic.-east-theme .how-to--basic__section:nth-child(odd) .how-to__button:hover {
+.how-to--basic.-east-theme .how-to--basic__section:nth-child(odd) .how-to__button.button:hover {
   background-color: #eec2a5;
 }
 .how-to--basic.-godd-theme .how-to--basic__section:nth-child(even) {
@@ -215,11 +218,11 @@
 .how-to--basic.-godd-theme .how-to--basic__section:nth-child(odd) {
   background-color: #483627;
 }
-.how-to--basic.-godd-theme .how-to--basic__section:nth-child(odd) .how-to__button {
+.how-to--basic.-godd-theme .how-to--basic__section:nth-child(odd) .how-to__button.button {
   background-color: #dad7d4;
-  color: #575047;
+  color: #575047 !important;
 }
-.how-to--basic.-godd-theme .how-to--basic__section:nth-child(odd) .how-to__button:hover {
+.how-to--basic.-godd-theme .how-to--basic__section:nth-child(odd) .how-to__button.button:hover {
   background-color: #c2beb9;
 }
 .how-to--basic.-hlcolor-theme .how-to--basic__section:nth-child(even) {
@@ -234,11 +237,11 @@
 .how-to--basic.-hlcolor-theme .how-to--basic__section:nth-child(odd) {
   background-color: #8446ac;
 }
-.how-to--basic.-hlcolor-theme .how-to--basic__section:nth-child(odd) .how-to__button {
+.how-to--basic.-hlcolor-theme .how-to--basic__section:nth-child(odd) .how-to__button.button {
   background-color: #e6daee;
-  color: #575047;
+  color: #575047 !important;
 }
-.how-to--basic.-hlcolor-theme .how-to--basic__section:nth-child(odd) .how-to__button:hover {
+.how-to--basic.-hlcolor-theme .how-to--basic__section:nth-child(odd) .how-to__button.button:hover {
   background-color: #ceb7de;
 }
 .how-to--basic.-lind-theme .how-to--basic__section:nth-child(even) {
@@ -253,11 +256,11 @@
 .how-to--basic.-lind-theme .how-to--basic__section:nth-child(odd) {
   background-color: #25cad3;
 }
-.how-to--basic.-lind-theme .how-to--basic__section:nth-child(odd) .how-to__button {
+.how-to--basic.-lind-theme .how-to--basic__section:nth-child(odd) .how-to__button.button {
   background-color: #d3f4f6;
-  color: #575047;
+  color: #575047 !important;
 }
-.how-to--basic.-lind-theme .how-to--basic__section:nth-child(odd) .how-to__button:hover {
+.how-to--basic.-lind-theme .how-to--basic__section:nth-child(odd) .how-to__button.button:hover {
   background-color: #a9e9ed;
 }
 .how-to--basic.-mauve-theme .how-to--basic__section:nth-child(even) {
@@ -272,11 +275,11 @@
 .how-to--basic.-mauve-theme .how-to--basic__section:nth-child(odd) {
   background-color: #691940;
 }
-.how-to--basic.-mauve-theme .how-to--basic__section:nth-child(odd) .how-to__button {
+.how-to--basic.-mauve-theme .how-to--basic__section:nth-child(odd) .how-to__button.button {
   background-color: #e1d1d9;
-  color: #575047;
+  color: #575047 !important;
 }
-.how-to--basic.-mauve-theme .how-to--basic__section:nth-child(odd) .how-to__button:hover {
+.how-to--basic.-mauve-theme .how-to--basic__section:nth-child(odd) .how-to__button.button:hover {
   background-color: #cdb2c0;
 }
 .how-to--basic.-moyes-theme .how-to--basic__section:nth-child(even) {
@@ -291,11 +294,11 @@
 .how-to--basic.-moyes-theme .how-to--basic__section:nth-child(odd) {
   background-color: #a3d55d;
 }
-.how-to--basic.-moyes-theme .how-to--basic__section:nth-child(odd) .how-to__button {
+.how-to--basic.-moyes-theme .how-to--basic__section:nth-child(odd) .how-to__button.button {
   background-color: #edf7df;
-  color: #575047;
+  color: #575047 !important;
 }
-.how-to--basic.-moyes-theme .how-to--basic__section:nth-child(odd) .how-to__button:hover {
+.how-to--basic.-moyes-theme .how-to--basic__section:nth-child(odd) .how-to__button.button:hover {
   background-color: #d6edb6;
 }
 .how-to--basic.-unigray-theme .how-to--basic__section:nth-child(even) {
@@ -310,11 +313,11 @@
 .how-to--basic.-unigray-theme .how-to--basic__section:nth-child(odd) {
   background-color: #575047;
 }
-.how-to--basic.-unigray-theme .how-to--basic__section:nth-child(odd) .how-to__button {
+.how-to--basic.-unigray-theme .how-to--basic__section:nth-child(odd) .how-to__button.button {
   background-color: #dddcda;
-  color: #575047;
+  color: #575047 !important;
 }
-.how-to--basic.-unigray-theme .how-to--basic__section:nth-child(odd) .how-to__button:hover {
+.how-to--basic.-unigray-theme .how-to--basic__section:nth-child(odd) .how-to__button.button:hover {
   background-color: #c5c3bf;
 }
 .how-to--basic.-wcpurp-theme .how-to--basic__section:nth-child(even) {
@@ -329,11 +332,11 @@
 .how-to--basic.-wcpurp-theme .how-to--basic__section:nth-child(odd) {
   background-color: #492365;
 }
-.how-to--basic.-wcpurp-theme .how-to--basic__section:nth-child(odd) .how-to__button {
+.how-to--basic.-wcpurp-theme .how-to--basic__section:nth-child(odd) .how-to__button.button {
   background-color: #dbd3e0;
-  color: #575047;
+  color: #575047 !important;
 }
-.how-to--basic.-wcpurp-theme .how-to--basic__section:nth-child(odd) .how-to__button:hover {
+.how-to--basic.-wcpurp-theme .how-to--basic__section:nth-child(odd) .how-to__button.button:hover {
   background-color: #c3b5cb;
 }
 .how-to--basic.-wsumauve-theme .how-to--basic__section:nth-child(even) {
@@ -348,11 +351,11 @@
 .how-to--basic.-wsumauve-theme .how-to--basic__section:nth-child(odd) {
   background-color: #691940;
 }
-.how-to--basic.-wsumauve-theme .how-to--basic__section:nth-child(odd) .how-to__button {
+.how-to--basic.-wsumauve-theme .how-to--basic__section:nth-child(odd) .how-to__button.button {
   background-color: #e1d1d9;
-  color: #575047;
+  color: #575047 !important;
 }
-.how-to--basic.-wsumauve-theme .how-to--basic__section:nth-child(odd) .how-to__button:hover {
+.how-to--basic.-wsumauve-theme .how-to--basic__section:nth-child(odd) .how-to__button.button:hover {
   background-color: #cdb2c0;
 }
 .how-to--basic.-wsubrown-theme .how-to--basic__section:nth-child(even) {
@@ -367,11 +370,11 @@
 .how-to--basic.-wsubrown-theme .how-to--basic__section:nth-child(odd) {
   background-color: #84471e;
 }
-.how-to--basic.-wsubrown-theme .how-to--basic__section:nth-child(odd) .how-to__button {
+.how-to--basic.-wsubrown-theme .how-to--basic__section:nth-child(odd) .how-to__button.button {
   background-color: #e6dad2;
-  color: #575047;
+  color: #575047 !important;
 }
-.how-to--basic.-wsubrown-theme .how-to--basic__section:nth-child(odd) .how-to__button:hover {
+.how-to--basic.-wsubrown-theme .how-to--basic__section:nth-child(odd) .how-to__button.button:hover {
   background-color: #d4bfb1;
 }
 .how-to--basic.-wsured-theme .how-to--basic__section:nth-child(even) {
@@ -386,11 +389,11 @@
 .how-to--basic.-wsured-theme .how-to--basic__section:nth-child(odd) {
   background-color: #a52428;
 }
-.how-to--basic.-wsured-theme .how-to--basic__section:nth-child(odd) .how-to__button {
+.how-to--basic.-wsured-theme .how-to--basic__section:nth-child(odd) .how-to__button.button {
   background-color: #edd3d4;
-  color: #575047;
+  color: #575047 !important;
 }
-.how-to--basic.-wsured-theme .how-to--basic__section:nth-child(odd) .how-to__button:hover {
+.how-to--basic.-wsured-theme .how-to--basic__section:nth-child(odd) .how-to__button.button:hover {
   background-color: #deafb1;
 }
 .how-to--basic.-wsublue-theme .how-to--basic__section:nth-child(even) {
@@ -405,11 +408,11 @@
 .how-to--basic.-wsublue-theme .how-to--basic__section:nth-child(odd) {
   background-color: #346094;
 }
-.how-to--basic.-wsublue-theme .how-to--basic__section:nth-child(odd) .how-to__button {
+.how-to--basic.-wsublue-theme .how-to--basic__section:nth-child(odd) .how-to__button.button {
   background-color: #d6dfea;
-  color: #575047;
+  color: #575047 !important;
 }
-.how-to--basic.-wsublue-theme .how-to--basic__section:nth-child(odd) .how-to__button:hover {
+.how-to--basic.-wsublue-theme .how-to--basic__section:nth-child(odd) .how-to__button.button:hover {
   background-color: #b4c5d9;
 }
 .how-to--basic.-wsugreen-theme .how-to--basic__section:nth-child(even) {
@@ -424,11 +427,11 @@
 .how-to--basic.-wsugreen-theme .how-to--basic__section:nth-child(odd) {
   background-color: #005c49;
 }
-.how-to--basic.-wsugreen-theme .how-to--basic__section:nth-child(odd) .how-to__button {
+.how-to--basic.-wsugreen-theme .how-to--basic__section:nth-child(odd) .how-to__button.button {
   background-color: #ccdedb;
-  color: #575047;
+  color: #575047 !important;
 }
-.how-to--basic.-wsugreen-theme .how-to--basic__section:nth-child(odd) .how-to__button:hover {
+.how-to--basic.-wsugreen-theme .how-to--basic__section:nth-child(odd) .how-to__button.button:hover {
   background-color: #adcac5;
 }
 .how-to--basic.-wsuwhite-theme .how-to--basic__section:nth-child(even) {
@@ -443,11 +446,11 @@
 .how-to--basic.-wsuwhite-theme .how-to--basic__section:nth-child(odd) {
   background-color: white;
 }
-.how-to--basic.-wsuwhite-theme .how-to--basic__section:nth-child(odd) .how-to__button {
+.how-to--basic.-wsuwhite-theme .how-to--basic__section:nth-child(odd) .how-to__button.button {
   background-color: white;
-  color: #575047;
+  color: #575047 !important;
 }
-.how-to--basic.-wsuwhite-theme .how-to--basic__section:nth-child(odd) .how-to__button:hover {
+.how-to--basic.-wsuwhite-theme .how-to--basic__section:nth-child(odd) .how-to__button.button:hover {
   background-color: #e6e6e6;
 }
 

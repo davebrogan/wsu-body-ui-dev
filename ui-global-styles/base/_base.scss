@@ -1,17 +1,14 @@
 /*secondary logo svg patch*/
-.secondary-logo {
+.secondary-logo[src$=".svg"] {
   height: 55px !important;
   margin-top: 14px;
+  @media only screen and (max-width: 740px) {
+    margin-top: 0;
+  }
 }
 
 .row.expanded {
   max-width: none !important;
-}
-
-@media only screen and (max-width: 740px) {
-  .secondary-logo {
-	margin-top: 0;
-  }
 }
 
 .page-title.title-override {
