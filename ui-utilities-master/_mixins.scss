@@ -242,6 +242,12 @@
     &.-#{$name}-theme {
       #{$self}__section:nth-child(even) {
         background-color: $light-gray-bg;
+        & .text-box__text > a {
+          color: #fff;
+          &:hover {
+            color: darken(#fff, 10%);
+          }
+        }
         & .how-to__button {
           background-color: $theme-color;
           &:hover {
@@ -258,6 +264,28 @@
             background-color: darken($theme-color-light, 10%);
           }
         }
+      }
+    }
+  }
+}
+
+//
+// generates css for how-to--simple block, elements * theme colors (palette)
+// allows for theming by adding ".-#{&color-name}-theme" modifier to module root node
+//
+@mixin how-to--simple-themes {
+  $self: &;
+  @each $name, $color in $color-names {
+    $theme-color: wsu-palette($color, 1);
+    &.-#{$name}-theme {
+      #{$self}__step {
+        border-top: 2px solid $theme-color;
+      }
+      #{$self}__step-number {
+        background-color: $theme-color;
+      }
+      #{$self}__button {
+        background-color: $theme-color;
       }
     }
   }
