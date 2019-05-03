@@ -1,3 +1,6 @@
+/**
+*** how-to sections
+**/
 .how-to {
   &--basic {
 	&__section {
@@ -19,7 +22,8 @@
 	  margin-bottom: 20px !important;
 	}
 	&__section {
-	  padding-bottom: 75px;
+	  padding-bottom: 45px;
+	  //text-align: center;
 	}
 	&__step-number {
 	  color: $white-text;
@@ -28,14 +32,21 @@
 	}
 	&__content {
 	  margin-bottom: 30px;
+	  //padding-left: 12%;
 	}
   }
 }
 
+/**
+*** how-to-basic-themes
+**/
 .how-to--basic {
   @include how-to--basic-themes();
 }
 
+/**
+*** how-to-simple-themes
+**/
 .how-to--simple {
   @include how-to--simple-themes();
 }

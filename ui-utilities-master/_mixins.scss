@@ -111,7 +111,7 @@
 // generates css for feature-box elements * theme colors (palette)
 // allows for theming by adding ".-theme-name" modifier to module root node
 //
-@mixin feature-box-themes {
+@mixin feature-box-themes() {
   $self: &;
   @each $name, $color in $color-names {
     &.-#{$name}-theme {
@@ -130,10 +130,35 @@
 }
 
 //
+// generates css for feature-box-alt elements * theme colors (palette)
+// allows for theming by adding ".-theme-name" modifier to module root node
+//
+@mixin feature-box-alt-themes() {
+  $self: &;
+  @each $name, $color in $color-names {
+    &.-#{$name}-theme {
+      $theme-color: wsu-palette($color, 1);
+      #{$self}__title {
+        &.title-override {
+          color: $theme-color !important;
+          border-bottom: 3px solid $theme-color !important;
+        }
+      }
+      #{$self}__button {
+        background-color: $theme-color;
+        &:hover {
+          background-color: lighten($theme-color, 10%);
+        }
+      }
+    }
+  }
+}
+
+//
 // generates css for nav-onpage-icon theme colors
 // allows for theming by adding ".theme-name" modifier to module root node
 //
-@mixin nav-onpage-themes{
+@mixin nav-onpage-themes() {
   $self: &;
   @each $name, $color in $color-names {
     &.-#{$name}-theme {
@@ -150,7 +175,7 @@
 // generates css for card-module elements * theme colors (palette)
 // allows for theming by adding ".-theme-name" modifier to module root node
 //
-@mixin card-module-themes {
+@mixin card-module-themes() {
   $self: &;
   @each $name, $color in $color-names {
     &.-#{$name}-theme {
@@ -172,7 +197,7 @@
 // generates css for card-overlay elements * theme colors (palette)
 // allows for theming by adding ".-theme-name" modifier to module root node
 //
-@mixin card-overlay-themes {
+@mixin card-overlay-themes() {
   $self: &;
   @each $name, $color in $color-names {
     &.-#{$name}-theme {
@@ -234,7 +259,7 @@
 // generates css for how-to--basic block, elements * theme colors (palette)
 // allows for theming by adding ".-#{&color-name}-theme" modifier to module root node
 //
-@mixin how-to--basic-themes {
+@mixin how-to--basic-themes() {
   $self: &;
   @each $name, $color in $color-names {
     $theme-color: wsu-palette($color, 1);
@@ -273,7 +298,7 @@
 // generates css for how-to--simple block, elements * theme colors (palette)
 // allows for theming by adding ".-#{&color-name}-theme" modifier to module root node
 //
-@mixin how-to--simple-themes {
+@mixin how-to--simple-themes() {
   $self: &;
   @each $name, $color in $color-names {
     $theme-color: wsu-palette($color, 1);

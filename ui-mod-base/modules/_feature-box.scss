@@ -70,3 +70,24 @@
 .feature-box {
   @include feature-box-themes();
 }
+
+/**
+*** feature-box-alt
+**/
+.feature-box-alt {
+  &__title {
+	&.title-override {
+	  color: #492365 !important;
+	  border-bottom: 3px solid #492365 !important;
+	  margin-bottom: 10px !important;
+	}
+  }
+  &__content {
+	padding: .5rem 0;
+  }
+}
+
+/** feature box alt themes **/
+.feature-box-alt {
+  @include feature-box-alt-themes();
+}

@@ -118,6 +118,9 @@
   }
 }
 
+/**
+*** how-to sections
+**/
 .how-to--basic__section {
   padding: 2em;
 }
@@ -133,7 +136,7 @@
   margin-bottom: 20px !important;
 }
 .how-to--simple__section {
-  padding-bottom: 75px;
+  padding-bottom: 45px;
 }
 .how-to--simple__step-number {
   color: #FFF;
@@ -144,6 +147,9 @@
   margin-bottom: 30px;
 }
 
+/**
+*** how-to-basic-themes
+**/
 .how-to--basic.-cos-theme .how-to--basic__section:nth-child(even) {
   background-color: #f3f3f3;
 }
@@ -570,6 +576,9 @@
   background-color: #e6e6e6;
 }
 
+/**
+*** how-to-simple-themes
+**/
 .how-to--simple.-cos-theme .how-to--simple__step {
   border-top: 2px solid #f6b221;
 }
@@ -724,6 +733,9 @@
   background-color: white;
 }
 
+/**
+** card-advisor
+**/
 .card-advisor {
   margin-bottom: 2rem;
   padding-bottom: 6%;
@@ -752,17 +764,20 @@
   align-self: center;
 }
 .card-advisor.-shadow {
-  box-shadow: 0 0 10px 2px #ccc;
+  box-shadow: 0 2px 7px 2px #ccc;
 }
 @media screen and (min-resolution: 192dpi) {
   .card-advisor.-shadow {
-    box-shadow: 0 0 10px 2px #eee;
+    box-shadow: 0 2px 7px 2px #eee;
   }
 }
 .card-advisor--no-header .card-advisor__header-image {
   display: none;
 }
 
+/**
+*** card-advisor themes
+**/
 .card-advisor.-cos-theme .card-advisor__title {
   background-color: #f6b221;
 }
@@ -917,6 +932,9 @@
   background-color: white;
 }
 
+/**
+card-bio
+**/
 .card-bio {
   background-color: #fff;
   margin-bottom: 30px;
@@ -945,7 +963,7 @@
 }
 
 /**
-*** cards ***
+*** card module ***
 **/
 .card-module {
   background-color: #FFF;
@@ -1420,6 +1438,9 @@
   background-color: #cccccc;
 }
 
+/**
+*** card personel
+**/
 .card-personnel {
   margin-bottom: 2rem;
   padding-bottom: 6%;
@@ -1447,6 +1468,9 @@
   display: none;
 }
 
+/**
+*** card-personnel themes
+**/
 .card-personnel.-cos-theme .card-personnel__title {
   background-color: #f6b221;
 }
@@ -2180,6 +2204,190 @@ color-background-box
 }
 
 /**
+*** feature-box-alt
+**/
+.feature-box-alt__title.title-override {
+  color: #492365 !important;
+  border-bottom: 3px solid #492365 !important;
+  margin-bottom: 10px !important;
+}
+.feature-box-alt__content {
+  padding: 0.5rem 0;
+}
+
+/** feature box alt themes **/
+.feature-box-alt.-cos-theme .feature-box-alt__title.title-override {
+  color: #f6b221 !important;
+  border-bottom: 3px solid #f6b221 !important;
+}
+.feature-box-alt.-cos-theme .feature-box-alt__button {
+  background-color: #f6b221;
+}
+.feature-box-alt.-cos-theme .feature-box-alt__button:hover {
+  background-color: #f8c352;
+}
+.feature-box-alt.-csbs-theme .feature-box-alt__title.title-override {
+  color: #005f71 !important;
+  border-bottom: 3px solid #005f71 !important;
+}
+.feature-box-alt.-csbs-theme .feature-box-alt__button {
+  background-color: #005f71;
+}
+.feature-box-alt.-csbs-theme .feature-box-alt__button:hover {
+  background-color: #008aa4;
+}
+.feature-box-alt.-dumke-theme .feature-box-alt__title.title-override {
+  color: #099844 !important;
+  border-bottom: 3px solid #099844 !important;
+}
+.feature-box-alt.-dumke-theme .feature-box-alt__button {
+  background-color: #099844;
+}
+.feature-box-alt.-dumke-theme .feature-box-alt__button:hover {
+  background-color: #0cc85a;
+}
+.feature-box-alt.-east-theme .feature-box-alt__title.title-override {
+  color: #d25d12 !important;
+  border-bottom: 3px solid #d25d12 !important;
+}
+.feature-box-alt.-east-theme .feature-box-alt__button {
+  background-color: #d25d12;
+}
+.feature-box-alt.-east-theme .feature-box-alt__button:hover {
+  background-color: #ed762a;
+}
+.feature-box-alt.-godd-theme .feature-box-alt__title.title-override {
+  color: #483627 !important;
+  border-bottom: 3px solid #483627 !important;
+}
+.feature-box-alt.-godd-theme .feature-box-alt__button {
+  background-color: #483627;
+}
+.feature-box-alt.-godd-theme .feature-box-alt__button:hover {
+  background-color: #694f39;
+}
+.feature-box-alt.-hlcolor-theme .feature-box-alt__title.title-override {
+  color: #8446ac !important;
+  border-bottom: 3px solid #8446ac !important;
+}
+.feature-box-alt.-hlcolor-theme .feature-box-alt__button {
+  background-color: #8446ac;
+}
+.feature-box-alt.-hlcolor-theme .feature-box-alt__button:hover {
+  background-color: #9c65c0;
+}
+.feature-box-alt.-lind-theme .feature-box-alt__title.title-override {
+  color: #25cad3 !important;
+  border-bottom: 3px solid #25cad3 !important;
+}
+.feature-box-alt.-lind-theme .feature-box-alt__button {
+  background-color: #25cad3;
+}
+.feature-box-alt.-lind-theme .feature-box-alt__button:hover {
+  background-color: #4bd8e0;
+}
+.feature-box-alt.-mauve-theme .feature-box-alt__title.title-override {
+  color: #691940 !important;
+  border-bottom: 3px solid #691940 !important;
+}
+.feature-box-alt.-mauve-theme .feature-box-alt__button {
+  background-color: #691940;
+}
+.feature-box-alt.-mauve-theme .feature-box-alt__button:hover {
+  background-color: #922359;
+}
+.feature-box-alt.-moyes-theme .feature-box-alt__title.title-override {
+  color: #a3d55d !important;
+  border-bottom: 3px solid #a3d55d !important;
+}
+.feature-box-alt.-moyes-theme .feature-box-alt__button {
+  background-color: #a3d55d;
+}
+.feature-box-alt.-moyes-theme .feature-box-alt__button:hover {
+  background-color: #bae086;
+}
+.feature-box-alt.-unigray-theme .feature-box-alt__title.title-override {
+  color: #575047 !important;
+  border-bottom: 3px solid #575047 !important;
+}
+.feature-box-alt.-unigray-theme .feature-box-alt__button {
+  background-color: #575047;
+}
+.feature-box-alt.-unigray-theme .feature-box-alt__button:hover {
+  background-color: #736a5e;
+}
+.feature-box-alt.-wcpurp-theme .feature-box-alt__title.title-override {
+  color: #492365 !important;
+  border-bottom: 3px solid #492365 !important;
+}
+.feature-box-alt.-wcpurp-theme .feature-box-alt__button {
+  background-color: #492365;
+}
+.feature-box-alt.-wcpurp-theme .feature-box-alt__button:hover {
+  background-color: #64308b;
+}
+.feature-box-alt.-wsumauve-theme .feature-box-alt__title.title-override {
+  color: #691940 !important;
+  border-bottom: 3px solid #691940 !important;
+}
+.feature-box-alt.-wsumauve-theme .feature-box-alt__button {
+  background-color: #691940;
+}
+.feature-box-alt.-wsumauve-theme .feature-box-alt__button:hover {
+  background-color: #922359;
+}
+.feature-box-alt.-wsubrown-theme .feature-box-alt__title.title-override {
+  color: #84471e !important;
+  border-bottom: 3px solid #84471e !important;
+}
+.feature-box-alt.-wsubrown-theme .feature-box-alt__button {
+  background-color: #84471e;
+}
+.feature-box-alt.-wsubrown-theme .feature-box-alt__button:hover {
+  background-color: #ae5d27;
+}
+.feature-box-alt.-wsured-theme .feature-box-alt__title.title-override {
+  color: #a52428 !important;
+  border-bottom: 3px solid #a52428 !important;
+}
+.feature-box-alt.-wsured-theme .feature-box-alt__button {
+  background-color: #a52428;
+}
+.feature-box-alt.-wsured-theme .feature-box-alt__button:hover {
+  background-color: #cf2d32;
+}
+.feature-box-alt.-wsublue-theme .feature-box-alt__title.title-override {
+  color: #346094 !important;
+  border-bottom: 3px solid #346094 !important;
+}
+.feature-box-alt.-wsublue-theme .feature-box-alt__button {
+  background-color: #346094;
+}
+.feature-box-alt.-wsublue-theme .feature-box-alt__button:hover {
+  background-color: #4178ba;
+}
+.feature-box-alt.-wsugreen-theme .feature-box-alt__title.title-override {
+  color: #005c49 !important;
+  border-bottom: 3px solid #005c49 !important;
+}
+.feature-box-alt.-wsugreen-theme .feature-box-alt__button {
+  background-color: #005c49;
+}
+.feature-box-alt.-wsugreen-theme .feature-box-alt__button:hover {
+  background-color: #008f71;
+}
+.feature-box-alt.-wsuwhite-theme .feature-box-alt__title.title-override {
+  color: white !important;
+  border-bottom: 3px solid white !important;
+}
+.feature-box-alt.-wsuwhite-theme .feature-box-alt__button {
+  background-color: white;
+}
+.feature-box-alt.-wsuwhite-theme .feature-box-alt__button:hover {
+  background-color: white;
+}
+
+/**
 *** On page Icon nav
  **/
 .nav-onpage-icon {
@@ -2479,11 +2687,11 @@ a.nav-onpage-icon__link {
 }
 
 .-shadow {
-  box-shadow: 0 0 10px 2px #ccc;
+  box-shadow: 0 2px 7px 2px #ccc;
 }
 @media screen and (min-resolution: 192dpi) {
   .-shadow {
-    box-shadow: 0 0 10px 2px #eee;
+    box-shadow: 0 2px 7px 2px #eee;
   }
 }
 

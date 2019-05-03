@@ -1,3 +1,6 @@
+/**
+** card-advisor
+**/
 .card-advisor {
   margin-bottom: 2rem;
   padding-bottom: 6%;
@@ -43,6 +46,9 @@
   }
 }
 
+/**
+*** card-advisor themes
+**/
 .card-advisor {
   @include feature-box-themes();
 }
