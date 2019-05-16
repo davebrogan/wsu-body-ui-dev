@@ -51,7 +51,19 @@
 	  box-shadow: 0 0 10px 2px #eee;
 	}
   }
-
+  &.-no-content {
+	padding-bottom: 0;
+	.feature-box__content, .feature-box__button {
+	  display: none;
+	}
+  }
+  &.-no-header {
+	.feature-box__header-image {
+	  display: none;
+	}
+  }
+}
+/*
   &--no-header {
 	.feature-box__header-image {
 	  display: none;
@@ -64,9 +76,11 @@
 	  display: none;
 	}
   }
-}
+*/
 
-/** feature box themes **/
+/**
+*** feature box themes
+**/
 .feature-box {
   @include feature-box-themes();
 }
@@ -87,7 +101,9 @@
   }
 }
 
-/** feature box alt themes **/
+/**
+*** feature box alt themes
+**/
 .feature-box-alt {
   @include feature-box-alt-themes();
 }
