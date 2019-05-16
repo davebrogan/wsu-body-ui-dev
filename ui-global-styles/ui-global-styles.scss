@@ -3,6 +3,9 @@
 @import "../ui-utilities-master/mixins";
 @import "../ui-utilities-master/placeholders";
 
+//used to generate global styles that apply across all modules
+//includes color theme scss
+//ui-modifiers-global, which is currently compiled with ui-mod-base should probably be moved here
 @import "base/base";
 @import "base/buttons-expanded";
 @import "base/colors";

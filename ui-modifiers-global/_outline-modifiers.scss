@@ -1,0 +1,27 @@
+.-shadow {
+  -moz-box-shadow: $shadow-lo-res;
+  -webkit-box-shadow: $shadow-lo-res;
+  box-shadow: $shadow-lo-res;
+  @media screen and (min-resolution: 192dpi) {
+    -moz-box-shadow: $shadow-hi-res;
+    -webkit-box-shadow: $shadow-hi-res;
+	box-shadow: $shadow-hi-res;
+  }
+}
+
+.-border--dark-gray {
+  border: 1px solid $gray-text;
+}
+
+.-border--medium-gray {
+  border: 1px solid rgba(77,70,77,.3);
+}
+
+.-border--light-gray {
+  border: 1px solid $light-gray-bg;
+}
+
+.-border--double {
+  border-color: wsu-palette($unigray-colors, 2);
+  border-style: double;
+}

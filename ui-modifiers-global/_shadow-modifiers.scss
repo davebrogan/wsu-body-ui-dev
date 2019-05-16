@@ -1,6 +1,0 @@
-.-shadow {
-  box-shadow: $shadow-lo-res;
-  @media screen and (min-resolution: 192dpi) {
-	box-shadow: $shadow-hi-res;
-  }
-}

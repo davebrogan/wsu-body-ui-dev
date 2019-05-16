@@ -3,6 +3,8 @@
 @import '../ui-utilities-master/mixins.scss';
 @import '../ui-utilities-master/placeholders.scss';
 
+//only used for testing local css in dev
+//not included in production
 @import 'modules/banner/scss/banner_local.scss';
 @import 'modules/button/scss/_button_local.scss';
 @import 'modules/card-module/scss/card-module_local';

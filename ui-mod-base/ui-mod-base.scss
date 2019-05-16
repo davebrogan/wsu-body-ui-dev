@@ -3,6 +3,8 @@
 @import '../ui-utilities-master/mixins';
 @import '../ui-utilities-master/placeholders';
 
+//compiles all module scss into the ui-mod-base stylesheet
+@import 'modules/admissions-feature';
 @import 'modules/icon';
 @import 'modules/banners';
 @import 'modules/how-to-steps';
@@ -28,5 +30,5 @@
 
 
 @import '../ui-modifiers-global/alignment-modifiers';
-@import '../ui-modifiers-global/shadow-modifiers';
+@import '../ui-modifiers-global/outline-modifiers';
 @import '../ui-modifiers-global/display-modifiers';

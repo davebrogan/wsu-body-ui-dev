@@ -311,6 +311,9 @@
       }
       #{$self}__button {
         background-color: $theme-color;
+        &:hover {
+          background-color: darken($theme-color, 10%);
+        }
       }
     }
   }

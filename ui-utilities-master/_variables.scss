@@ -306,8 +306,8 @@ $white-text: #FFF;
 $white-title-override: #FFF !important;
 $off-white-text: #fafafa;
 
-$shadow-lo-res: 0 2px 7px 2px #ccc;
-$shadow-hi-res: 0 2px 7px 2px #eee;
+$shadow-lo-res: 0 2px 7px 2px #a0a0a0;
+$shadow-hi-res: 0 2px 7px 2px #ccc;
 
 $light-gray-bg: #f3f3f3;
 
@@ -396,4 +396,5 @@ $target-laptop-under: "only screen and (max-width: " + $break-laptop-under + ")"
 $target-laptop: "only screen and (max-width: " + $break-laptop + ")";
 $target-laptop-over: "only screen and (min-width: " + $break-laptop-over + ")";
 $target-break-desktop: "only screen and (min-width: " + $break-desktop + ")";
+$target-desktop-under: "only screen and (max-width: " + $break-desktop + ")";
 $target-large-screen: "only screen and (min-width: " + $break-large-screen + ")";

@@ -1,4 +1,138 @@
 /**
+*** admissions-feature
+**/
+.admissions-feature {
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  background: #492365;
+  box-shadow: inset 0px 0px 30px 10px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  padding: 30px 0 20px 0;
+}
+.admissions-feature li {
+  padding-bottom: 5px;
+}
+.admissions-feature .get-started {
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+  text-align: center;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 640px) {
+  .admissions-feature .get-started {
+    margin-bottom: 20px;
+    border-right: 0;
+    border-bottom: 0px solid #aaa;
+  }
+}
+.admissions-feature .get-started img {
+  padding: 5px 40px 0 0;
+}
+@media only screen and (max-width: 1023px) {
+  .admissions-feature .get-started img {
+    padding: 20px 10px 0 0;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .admissions-feature .get-started img {
+    padding: 0;
+    height: 80%;
+  }
+}
+.admissions-feature span {
+  color: #fff;
+  font-size: 1em;
+  white-space: normal;
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
+.admissions-feature i {
+  margin: 0 auto;
+}
+.admissions-feature ul {
+  line-height: 0;
+}
+.admissions-feature a {
+  text-decoration: none;
+}
+.admissions-feature .adm-cat {
+  display: block;
+  line-height: 1.4em;
+  text-align: center;
+  padding-top: 85px;
+  font-family: "tradegothiclt", sans-serif;
+}
+.admissions-feature .column-block {
+  text-align: center;
+  margin-bottom: 0 !important;
+}
+.admissions-feature .apply-icon {
+  margin: 0 auto 40px auto;
+  transition: none;
+  color: rgba(255, 255, 255, 0.6);
+  display: block;
+  width: 100%;
+  height: 80px;
+  background: url(/ui/images/admissions-icon-sprite/apply.svg) center 0px no-repeat;
+}
+.admissions-feature .apply-icon:hover {
+  background: url(/ui/images/admissions-icon-sprite/apply.svg) center -80px no-repeat;
+  color: white;
+}
+.admissions-feature .info-icon {
+  margin: 0 auto 50px auto;
+  transition: none;
+  color: rgba(255, 255, 255, 0.6);
+  display: block;
+  width: 100%;
+  height: 80px;
+  background: url(/ui/images/admissions-icon-sprite/info.svg) center 0px no-repeat;
+}
+.admissions-feature .info-icon:hover {
+  background: url(/ui/images/admissions-icon-sprite/info.svg) center -80px no-repeat;
+  color: white;
+}
+.admissions-feature .fin-aid-icon {
+  margin: 0 auto 40px auto;
+  transition: none;
+  color: rgba(255, 255, 255, 0.6);
+  display: block;
+  width: 100%;
+  height: 80px;
+  background: url(/ui/images/admissions-icon-sprite/fin-aid.svg) center 0px no-repeat;
+}
+.admissions-feature .fin-aid-icon:hover {
+  background: url(/ui/images/admissions-icon-sprite/fin-aid.svg) center -80px no-repeat;
+  color: white;
+}
+.admissions-feature .majors-icon {
+  margin: 0 auto 40px auto;
+  transition: none;
+  color: rgba(255, 255, 255, 0.6);
+  display: block;
+  width: 100%;
+  height: 80px;
+  background: url(/ui/images/admissions-icon-sprite/majors.svg) center 0px no-repeat;
+}
+.admissions-feature .majors-icon:hover {
+  background: url(/ui/images/admissions-icon-sprite/majors.svg) center -80px no-repeat;
+  color: white;
+}
+.admissions-feature .cost-icon {
+  margin: 0 auto 40px auto;
+  transition: none;
+  color: rgba(255, 255, 255, 0.6);
+  display: block;
+  width: 100%;
+  height: 80px;
+  background: url(/ui/images/admissions-icon-sprite/costs.svg) center 0px no-repeat;
+}
+.admissions-feature .cost-icon:hover {
+  background: url(/ui/images/admissions-icon-sprite/costs.svg) center -80px no-repeat;
+  color: white;
+}
+
+/**
 *** icon
 **/
 .icon {
@@ -588,6 +722,9 @@
 .how-to--simple.-cos-theme .how-to--simple__button {
   background-color: #f6b221;
 }
+.how-to--simple.-cos-theme .how-to--simple__button:hover {
+  background-color: #db9809;
+}
 .how-to--simple.-csbs-theme .how-to--simple__step {
   border-top: 2px solid #005f71;
 }
@@ -596,6 +733,9 @@
 }
 .how-to--simple.-csbs-theme .how-to--simple__button {
   background-color: #005f71;
+}
+.how-to--simple.-csbs-theme .how-to--simple__button:hover {
+  background-color: #00343e;
 }
 .how-to--simple.-dumke-theme .how-to--simple__step {
   border-top: 2px solid #099844;
@@ -606,6 +746,9 @@
 .how-to--simple.-dumke-theme .how-to--simple__button {
   background-color: #099844;
 }
+.how-to--simple.-dumke-theme .how-to--simple__button:hover {
+  background-color: #06682e;
+}
 .how-to--simple.-east-theme .how-to--simple__step {
   border-top: 2px solid #d25d12;
 }
@@ -614,6 +757,9 @@
 }
 .how-to--simple.-east-theme .how-to--simple__button {
   background-color: #d25d12;
+}
+.how-to--simple.-east-theme .how-to--simple__button:hover {
+  background-color: #a3480e;
 }
 .how-to--simple.-godd-theme .how-to--simple__step {
   border-top: 2px solid #483627;
@@ -624,6 +770,9 @@
 .how-to--simple.-godd-theme .how-to--simple__button {
   background-color: #483627;
 }
+.how-to--simple.-godd-theme .how-to--simple__button:hover {
+  background-color: #271d15;
+}
 .how-to--simple.-hlcolor-theme .how-to--simple__step {
   border-top: 2px solid #8446ac;
 }
@@ -632,6 +781,9 @@
 }
 .how-to--simple.-hlcolor-theme .how-to--simple__button {
   background-color: #8446ac;
+}
+.how-to--simple.-hlcolor-theme .how-to--simple__button:hover {
+  background-color: #683788;
 }
 .how-to--simple.-lind-theme .how-to--simple__step {
   border-top: 2px solid #25cad3;
@@ -642,6 +794,9 @@
 .how-to--simple.-lind-theme .how-to--simple__button {
   background-color: #25cad3;
 }
+.how-to--simple.-lind-theme .how-to--simple__button:hover {
+  background-color: #1da0a8;
+}
 .how-to--simple.-mauve-theme .how-to--simple__step {
   border-top: 2px solid #691940;
 }
@@ -650,6 +805,9 @@
 }
 .how-to--simple.-mauve-theme .how-to--simple__button {
   background-color: #691940;
+}
+.how-to--simple.-mauve-theme .how-to--simple__button:hover {
+  background-color: #400f27;
 }
 .how-to--simple.-moyes-theme .how-to--simple__step {
   border-top: 2px solid #a3d55d;
@@ -660,6 +818,9 @@
 .how-to--simple.-moyes-theme .how-to--simple__button {
   background-color: #a3d55d;
 }
+.how-to--simple.-moyes-theme .how-to--simple__button:hover {
+  background-color: #8ccb35;
+}
 .how-to--simple.-unigray-theme .how-to--simple__step {
   border-top: 2px solid #575047;
 }
@@ -668,6 +829,9 @@
 }
 .how-to--simple.-unigray-theme .how-to--simple__button {
   background-color: #575047;
+}
+.how-to--simple.-unigray-theme .how-to--simple__button:hover {
+  background-color: #3b3630;
 }
 .how-to--simple.-wcpurp-theme .how-to--simple__step {
   border-top: 2px solid #492365;
@@ -678,6 +842,9 @@
 .how-to--simple.-wcpurp-theme .how-to--simple__button {
   background-color: #492365;
 }
+.how-to--simple.-wcpurp-theme .how-to--simple__button:hover {
+  background-color: #2e163f;
+}
 .how-to--simple.-wsumauve-theme .how-to--simple__step {
   border-top: 2px solid #691940;
 }
@@ -686,6 +853,9 @@
 }
 .how-to--simple.-wsumauve-theme .how-to--simple__button {
   background-color: #691940;
+}
+.how-to--simple.-wsumauve-theme .how-to--simple__button:hover {
+  background-color: #400f27;
 }
 .how-to--simple.-wsubrown-theme .how-to--simple__step {
   border-top: 2px solid #84471e;
@@ -696,6 +866,9 @@
 .how-to--simple.-wsubrown-theme .how-to--simple__button {
   background-color: #84471e;
 }
+.how-to--simple.-wsubrown-theme .how-to--simple__button:hover {
+  background-color: #5a3115;
+}
 .how-to--simple.-wsured-theme .how-to--simple__step {
   border-top: 2px solid #a52428;
 }
@@ -704,6 +877,9 @@
 }
 .how-to--simple.-wsured-theme .how-to--simple__button {
   background-color: #a52428;
+}
+.how-to--simple.-wsured-theme .how-to--simple__button:hover {
+  background-color: #7b1b1e;
 }
 .how-to--simple.-wsublue-theme .how-to--simple__step {
   border-top: 2px solid #346094;
@@ -714,6 +890,9 @@
 .how-to--simple.-wsublue-theme .how-to--simple__button {
   background-color: #346094;
 }
+.how-to--simple.-wsublue-theme .how-to--simple__button:hover {
+  background-color: #27486e;
+}
 .how-to--simple.-wsugreen-theme .how-to--simple__step {
   border-top: 2px solid #005c49;
 }
@@ -723,6 +902,9 @@
 .how-to--simple.-wsugreen-theme .how-to--simple__button {
   background-color: #005c49;
 }
+.how-to--simple.-wsugreen-theme .how-to--simple__button:hover {
+  background-color: #002921;
+}
 .how-to--simple.-wsuwhite-theme .how-to--simple__step {
   border-top: 2px solid white;
 }
@@ -731,6 +913,9 @@
 }
 .how-to--simple.-wsuwhite-theme .how-to--simple__button {
   background-color: white;
+}
+.how-to--simple.-wsuwhite-theme .how-to--simple__button:hover {
+  background-color: #e6e6e6;
 }
 
 /**
@@ -764,11 +949,11 @@
   align-self: center;
 }
 .card-advisor.-shadow {
-  box-shadow: 0 2px 7px 2px #ccc;
+  box-shadow: 0 2px 7px 2px #a0a0a0;
 }
 @media screen and (min-resolution: 192dpi) {
   .card-advisor.-shadow {
-    box-shadow: 0 2px 7px 2px #eee;
+    box-shadow: 0 2px 7px 2px #ccc;
   }
 }
 .card-advisor--no-header .card-advisor__header-image {
@@ -2687,12 +2872,33 @@ a.nav-onpage-icon__link {
 }
 
 .-shadow {
-  box-shadow: 0 2px 7px 2px #ccc;
+  -moz-box-shadow: 0 2px 7px 2px #a0a0a0;
+  -webkit-box-shadow: 0 2px 7px 2px #a0a0a0;
+  box-shadow: 0 2px 7px 2px #a0a0a0;
 }
 @media screen and (min-resolution: 192dpi) {
   .-shadow {
-    box-shadow: 0 2px 7px 2px #eee;
+    -moz-box-shadow: 0 2px 7px 2px #ccc;
+    -webkit-box-shadow: 0 2px 7px 2px #ccc;
+    box-shadow: 0 2px 7px 2px #ccc;
   }
+}
+
+.-border--dark-gray {
+  border: 1px solid #575047;
+}
+
+.-border--medium-gray {
+  border: 1px solid rgba(77, 70, 77, 0.3);
+}
+
+.-border--light-gray {
+  border: 1px solid #f3f3f3;
+}
+
+.-border--double {
+  border-color: #aba7a3;
+  border-style: double;
 }
 
 .-is-hidden {

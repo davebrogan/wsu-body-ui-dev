@@ -3,7 +3,7 @@
   height: 55px !important;
   margin-top: 14px;
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 740px) {
   .secondary-logo[src$=".svg"] {
     margin-top: 0;
   }
