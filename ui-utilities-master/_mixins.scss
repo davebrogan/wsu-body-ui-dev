@@ -117,7 +117,7 @@
     &.-#{$name}-theme {
       $theme-color: wsu-palette($color, 1);
       #{$self}__title {
-        background-color: $theme-color;
+        background-color: $theme-color !important;
       }
       #{$self}__button {
         background-color: $theme-color;

@@ -17,8 +17,8 @@
   &__title {
 	&.title-override {
 	  // use theme class on block to change color
-	  background-color: #492365;
-	  padding: 10px;
+	  background-color: #492365 !important;
+	  padding: 10px !important;
 	  color: #fafafa;
 	  margin: 0;
 	  font-size: $title-medium;
