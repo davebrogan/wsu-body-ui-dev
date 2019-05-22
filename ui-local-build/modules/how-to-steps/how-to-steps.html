@@ -41,9 +41,10 @@
 ---- Each step number sits behind a solid colored border.
 --->
 
+<!-- original markup
 <div class="row how-to how-to--simple -wcpurp-theme">
     <h2 class="how-to--simple__title title-override">How to Apply</h2>
-    <div class="row how-to--simple__section">
+    <div class="column xlarge-8 xlarge-centered how-to--simple__section">
         <div class="how-to--simple__step">
             <p class="how-to--simple__step-number">Step 1:</p>
         </div>
@@ -55,6 +56,38 @@
         <a class="button how-to__button how-to--simple__button" href="https://www.weber.edu/admissions">Apply for WSU Admissions</a>
     </div>
 </div>
+----------->
+
+<section class="padded-full-even">
+    <div class="row how-to how-to--simple -wcpurp-theme">
+        <h2 class="how-to--simple__title title-override">How to Steps - Simple</h2>
+
+        <div class="column xlarge-8 xlarge-centered how-to--simple__section">
+            <div class="how-to--simple__step">
+                <p class="how-to--simple__step-number">Step 1:</p>
+            </div>
+
+            <div class="how-to--simple__content">
+                <h3 class="how-to--simple__section-title">Apply to WSU</h3>
+
+                <p>If you have not already applied to WSU, you <em>must</em> do so before continuing.</p>
+                <a class="button how-to__button how-to--simple__button" href="https://www.weber.edu/admissions">Apply for WSU Admissions</a></div>
+        </div>
+
+        <div class="column xlarge-8 xlarge-centered how-to--simple__section">
+            <div class="how-to--simple__step">
+                <p class="how-to--simple__step-number">Step 2:</p>
+            </div>
+
+            <div class="how-to--simple__content">
+                <h3 class="how-to--simple__section-title">Meet With Our Admissions Coordinator</h3>
+
+                <p>So you can discuss our program and requirements. Visit our <a href="https://www.weber.edu/athletic-training/advising.html">advising page</a> for more information.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!--
 ---- how-to--extended
@@ -62,6 +95,7 @@
 ---- when many buttons, accordions and
 ---- sub-sections are required.
 --->
+
 <div class="how-to how-to--extended">
     <section class="how-to--extended__section">
 
