@@ -2813,7 +2813,7 @@ a.nav-onpage-icon__link {
 **/
 .page-title-shadow {
   padding: 35px 0;
-  box-shadow: 0 6px 18px 4px rgba(129, 118, 129, 0.7);
+  box-shadow: 0 6px 18px 4px rgba(129, 118, 129, 0.4);
 }
 .page-title-shadow__text {
   text-align: center;
