@@ -30,6 +30,11 @@ section.spacer-quarter, .section.spacer-quarter {
   height: 50px;
 }
 
+section.text-width-limit {
+  max-width: $max-char-constraint-width;
+  margin: 0 auto;
+}
+
 
 /*colored background insets, usually lightest shade on each palette color*/
 .inset {

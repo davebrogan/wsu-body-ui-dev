@@ -51,32 +51,24 @@
 	  box-shadow: 0 0 10px 2px #eee;
 	}
   }
+
+  &.-outline {
+	border: 1px solid rgba(77,70,77,.3);
+  }
+
   &.-no-content {
 	padding-bottom: 0;
 	.feature-box__content, .feature-box__button {
 	  display: none;
 	}
   }
+
   &.-no-header {
 	.feature-box__header-image {
 	  display: none;
 	}
   }
 }
-/*
-  &--no-header {
-	.feature-box__header-image {
-	  display: none;
-	}
-  }
-
-  &--no-content {
-	padding-bottom: 0;
-	.feature-box__content, .feature-box__button {
-	  display: none;
-	}
-  }
-*/
 
 /**
 *** feature box themes
@@ -89,6 +81,13 @@
 *** feature-box-alt
 **/
 .feature-box-alt {
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  @media #{$target-large-phone} {
+	padding-right: 0.975em;
+	padding-left: 0.975em;
+  }
+
   &__title {
 	&.title-override {
 	  color: #492365 !important;
@@ -96,8 +95,13 @@
 	  margin-bottom: 10px !important;
 	}
   }
+
   &__content {
-	padding: .5rem 0;
+	padding: 0.5rem 0;
+  }
+
+  &.-outline {
+	border: 1px solid rgba(77,70,77,.3);
   }
 }
 

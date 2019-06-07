@@ -307,6 +307,11 @@ section.spacer-quarter, .section.spacer-quarter {
   height: 50px;
 }
 
+section.text-width-limit {
+  max-width: 47.5em;
+  margin: 0 auto;
+}
+
 /*colored background insets, usually lightest shade on each palette color*/
 .inset {
   background-color: #e8e8e8;

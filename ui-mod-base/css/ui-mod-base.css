@@ -2223,6 +2223,9 @@ color-background-box
     box-shadow: 0 0 10px 2px #eee;
   }
 }
+.feature-box.-outline {
+  border: 1px solid rgba(77, 70, 77, 0.3);
+}
 .feature-box.-no-content {
   padding-bottom: 0;
 }
@@ -2233,20 +2236,6 @@ color-background-box
   display: none;
 }
 
-/*
-  &--no-header {
-	.feature-box__header-image {
-	  display: none;
-	}
-  }
-
-  &--no-content {
-	padding-bottom: 0;
-	.feature-box__content, .feature-box__button {
-	  display: none;
-	}
-  }
-*/
 /**
 *** feature box themes
 **/
@@ -2407,6 +2396,16 @@ color-background-box
 /**
 *** feature-box-alt
 **/
+.feature-box-alt {
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+}
+@media only screen and (max-width: 640px) {
+  .feature-box-alt {
+    padding-right: 0.975em;
+    padding-left: 0.975em;
+  }
+}
 .feature-box-alt__title.title-override {
   color: #492365 !important;
   border-bottom: 3px solid #492365 !important;
@@ -2414,6 +2413,9 @@ color-background-box
 }
 .feature-box-alt__content {
   padding: 0.5rem 0;
+}
+.feature-box-alt.-outline {
+  border: 1px solid rgba(77, 70, 77, 0.3);
 }
 
 /**

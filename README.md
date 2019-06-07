@@ -16,3 +16,6 @@ This library was developed to allow quick implementation of UI web modules, whic
 
 ## Documentation
 Complete documentation currently lives as these [google docs](https://drive.google.com/drive/folders/1RqIUhGGq8k7rJWha4bTP1fAhZFGYLEZT?usp=sharing)
+
+## Function
+The purpose of wsu-body-ui-dev is to store dev versions of the html for the UI Modules and to generate css files for the Pattern Library.
