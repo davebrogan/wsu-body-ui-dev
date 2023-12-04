@@ -2925,4 +2925,20 @@ a.nav-onpage-icon__link {
   display: none;
 }
 
-/*# sourceMappingURL=ui-mod-base.css.map */
+/* Fancy Link Mods */
+.card-personnel__content--dark > * a, .fancy-link-white {
+  color: #FFF !important;
+  border-bottom: 1px solid #FFF;
+  text-decoration: none !important;
+}
+.card-personnel__content--dark > * a:hover, .card-personnel__content--dark > * a:focus, .fancy-link-white:hover, .fancy-link-white:focus {
+  border-bottom: 3px solid #FFF !important;
+  font-weight: bold;
+}
+
+/* use in conjunction with
+$(document).ready(function() {
+    $('<.parent-element-class-name>').find('.fancy-link').removeClass('fancy-link');
+    $('<.parent-element-class-name>').find('.fancy-link').removeClass('fancy-link');
+});
+*/
